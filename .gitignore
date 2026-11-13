@@ -1,0 +1,35 @@
+# Dependencies & Environments
+node_modules/
+.venv/
+env/
+venv/
+
+# Rendered Video Outputs (keep source code & public assets, ignore heavy MP4 renders)
+out/
+**/out/
+*.mp4.crdownload
+
+# Raw external video scrapings (keep all forensic reports/JSONs, ignore GBs of raw downloaded MP4/WAV dumps)
+analysis/videos/
+data/videos/
+analysis/test_assets/
+
+# Python cache & logs
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+*.tmp
+
+# OS metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editor temporary scratch files
+.vscode/
+.idea/
+*.swp
+*.swo

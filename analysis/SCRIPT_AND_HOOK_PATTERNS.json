@@ -1,0 +1,1038 @@
+{
+  "total_scripts": 87,
+  "rhetorical_pattern_frequencies": {
+    "follow_insiderforce": 75,
+    "comment_x": 71,
+    "claude_code": 26,
+    "for_free": 21,
+    "called_x": 20,
+    "no_x_no_y": 12,
+    "save_this": 10,
+    "nobody_talking": 6,
+    "all_you_need": 5,
+    "stop_doing_x": 4,
+    "now_instead_of": 2,
+    "in_seconds_minutes": 2,
+    "heres_the_part_different": 1
+  },
+  "top_20_by_views": [
+    {
+      "slug": "031_g3Mh8Hws-jo",
+      "title": "This Anthropic Hackathon Winner Just Released His Entire Claude Code Setup for Free - ECC",
+      "view_count": 2232222,
+      "like_count": 62292,
+      "comment_count": 6000,
+      "duration_sec": 106.2313,
+      "wpm": 169.4,
+      "word_count": 300,
+      "sentence_count": 25,
+      "avg_words_per_sentence": 11.9,
+      "hook_0_3s": "This Anthropic Hackathon winner just released his entire Claude",
+      "opening_sentence": "This Anthropic Hackathon winner just released his entire Claude code setup for free.",
+      "second_sentence": "His name is Afan Mustafa.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "048_enFgYQvI1dM",
+      "title": "The most powerful free coding agent on the market. And nobody's talking about it.",
+      "view_count": 973992,
+      "like_count": 51685,
+      "comment_count": 10000,
+      "duration_sec": 78.5995,
+      "wpm": 206.9,
+      "word_count": 271,
+      "sentence_count": 23,
+      "avg_words_per_sentence": 11.7,
+      "hook_0_3s": "Cursor has a price tag. Codex has a price tag. Claude",
+      "opening_sentence": "Cursor has a price tag.",
+      "second_sentence": "Codex has a price tag.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "011_irXFtcohTco",
+      "title": "The Open Source Model Beating Claude Now Runs on a 4GB Laptop for Free",
+      "view_count": 885981,
+      "like_count": 22962,
+      "comment_count": 1500,
+      "duration_sec": 102.0749,
+      "wpm": 194.0,
+      "word_count": 330,
+      "sentence_count": 20,
+      "avg_words_per_sentence": 16.1,
+      "hook_0_3s": "The open-source model that just beat Claude, you can now run it locally",
+      "opening_sentence": "The open-source model that just beat Claude, you can now run it locally on any cheap laptop for free, forever.",
+      "second_sentence": "No subscriptions,  no usage restrictions, no internet required.",
+      "outro_sentences": "The system only sends it to followers. >>"
+    },
+    {
+      "slug": "062_0JZtdAtJiyk",
+      "title": "Top 3 Claude Code Skills for Non-Designers",
+      "view_count": 848719,
+      "like_count": 30048,
+      "comment_count": 9300,
+      "duration_sec": 60.7202,
+      "wpm": 160.1,
+      "word_count": 162,
+      "sentence_count": 17,
+      "avg_words_per_sentence": 9.5,
+      "hook_0_3s": "Three Claude code skills that make you look like a designer overnight.",
+      "opening_sentence": "Three Claude code skills that make you look like a designer overnight.",
+      "second_sentence": "First, taste skill.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "033_aX7QAfld7hs",
+      "title": "5 MCP servers every Claude Code user needs right now.",
+      "view_count": 745918,
+      "like_count": 18540,
+      "comment_count": 2100,
+      "duration_sec": 78.437,
+      "wpm": 189.7,
+      "word_count": 248,
+      "sentence_count": 23,
+      "avg_words_per_sentence": 10.6,
+      "hook_0_3s": "If you use Claude code, these are the five MCP servers you",
+      "opening_sentence": "If you use Claude code, these are the five MCP servers you need right now.",
+      "second_sentence": "First is Perplexity MCP.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "060_I7B7-R-4s9c",
+      "title": "5 Claude features that run your entire business while you sleep.",
+      "view_count": 519592,
+      "like_count": 16607,
+      "comment_count": 3300,
+      "duration_sec": 101.7731,
+      "wpm": 168.0,
+      "word_count": 285,
+      "sentence_count": 27,
+      "avg_words_per_sentence": 10.3,
+      "hook_0_3s": "Five Claude features that run your entire business [music] while you sleep.",
+      "opening_sentence": "Five Claude features that run your entire business  while you sleep.",
+      "second_sentence": "If you are still using Claude like a search engine, you are only getting 10% of what it can actually do.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "049_3iUo7bnsN30",
+      "title": "You can now build a full APP for free.",
+      "view_count": 466748,
+      "like_count": 25019,
+      "comment_count": 4100,
+      "duration_sec": 69.0561,
+      "wpm": 181.6,
+      "word_count": 209,
+      "sentence_count": 18,
+      "avg_words_per_sentence": 11.6,
+      "hook_0_3s": "You can build a full app for free and nobody is talking about this tool.",
+      "opening_sentence": "You can build a full app for free and nobody is talking about this tool.",
+      "second_sentence": "It is called Open Code.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "012_ELsXhePjBxI",
+      "title": "This Free Tool Cuts Claude Code Token Usage by 49x on Large Codebases",
+      "view_count": 443676,
+      "like_count": 11234,
+      "comment_count": 1800,
+      "duration_sec": 103.2127,
+      "wpm": 176.7,
+      "word_count": 304,
+      "sentence_count": 29,
+      "avg_words_per_sentence": 10.3,
+      "hook_0_3s": "Claude code developers are canceling their $200 plan because",
+      "opening_sentence": "Claude code developers are canceling their $200 plan because one developer quietly dropped a free tool that permanently solved the biggest token problem forever.",
+      "second_sentence": "The tool is called Graphify.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "046_AAtagrbBOto",
+      "title": "One skill and Claude Code becomes a full motion design studio - Remotion",
+      "view_count": 372359,
+      "like_count": 17306,
+      "comment_count": 4200,
+      "duration_sec": 66.1072,
+      "wpm": 184.2,
+      "word_count": 203,
+      "sentence_count": 18,
+      "avg_words_per_sentence": 11.2,
+      "hook_0_3s": "Claude code can now create stunning animations. All you need is",
+      "opening_sentence": "Claude code can now create stunning animations.",
+      "second_sentence": "All you need is one skill to unlock it and Claude code becomes your own personal motion design studio.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "024_4qIZmI_1Zgs",
+      "title": "Get 1000 Free APIs for Claude Code to Build Anything You Want",
+      "view_count": 234907,
+      "like_count": 13041,
+      "comment_count": 1900,
+      "duration_sec": 92.2993,
+      "wpm": 174.9,
+      "word_count": 269,
+      "sentence_count": 16,
+      "avg_words_per_sentence": 16.8,
+      "hook_0_3s": "This is how you get 1,000 free APIs for Claude code",
+      "opening_sentence": "This is how you get 1,000 free APIs for Claude code to build anything you want.",
+      "second_sentence": "People are turning these free APIs into full platforms with real paying users.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "047_3YCaEsf1mlM",
+      "title": "There is finally a Claude for AI video - Pexo AI",
+      "view_count": 196366,
+      "like_count": 11125,
+      "comment_count": 3600,
+      "duration_sec": 90.2792,
+      "wpm": 194.7,
+      "word_count": 293,
+      "sentence_count": 30,
+      "avg_words_per_sentence": 9.5,
+      "hook_0_3s": "There is finally a Claude for AI video. You simply chat with",
+      "opening_sentence": "There is finally a Claude for AI video.",
+      "second_sentence": "You simply chat with it and it creates a finished ready to post video.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "030_21LvkiDcMi0",
+      "title": "Run Claude Code With Unlimited Usage for Free - 9Router",
+      "view_count": 185927,
+      "like_count": 7713,
+      "comment_count": 1300,
+      "duration_sec": 74.4432,
+      "wpm": 188.6,
+      "word_count": 234,
+      "sentence_count": 16,
+      "avg_words_per_sentence": 14.4,
+      "hook_0_3s": "You can now run Claude code with unlimited usage completely [music]",
+      "opening_sentence": "You can now run Claude code with unlimited usage completely  free.",
+      "second_sentence": "Save this before you hit your limit mid-session and lose everything you were working on.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "035_vfLtsYbtJf0",
+      "title": "Stop Installing Claude Skills Manually, This Skill Does It For You",
+      "view_count": 163372,
+      "like_count": 6074,
+      "comment_count": 1300,
+      "duration_sec": 76.7884,
+      "wpm": 196.9,
+      "word_count": 252,
+      "sentence_count": 18,
+      "avg_words_per_sentence": 13.7,
+      "hook_0_3s": "Stop installing Claude skills manually. Someone just",
+      "opening_sentence": "Stop installing Claude skills manually.",
+      "second_sentence": "Someone just built a skill that finds and installs the right one for you automatically.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "017_CaHT7D_B03s",
+      "title": "Run a 744 Billion Parameter AI Model on a Regular Laptop for Free",
+      "view_count": 154535,
+      "like_count": 7143,
+      "comment_count": 895,
+      "duration_sec": 103.1198,
+      "wpm": 183.3,
+      "word_count": 315,
+      "sentence_count": 19,
+      "avg_words_per_sentence": 16.2,
+      "hook_0_3s": "Nvidia did not see this coming. A solo developer just",
+      "opening_sentence": "Nvidia did not see this coming.",
+      "second_sentence": "A solo developer just made a 744 billion parameter AI model run on a regular laptop with no GPU and gave it away for free.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "039_DQtj7GJE8-I",
+      "title": "You Can Now Build a Full App and Run It With AI - No Code, No Developer",
+      "view_count": 147300,
+      "like_count": 8259,
+      "comment_count": 2900,
+      "duration_sec": 87.0981,
+      "wpm": 184.6,
+      "word_count": 268,
+      "sentence_count": 18,
+      "avg_words_per_sentence": 14.6,
+      "hook_0_3s": "People are building and selling real apps using AI right now,",
+      "opening_sentence": "People are building and selling real apps using AI right now, and most of them have never touched code in their life.",
+      "second_sentence": "This is exactly how you do the same thing starting today.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "044_8VPok4vbYBk",
+      "title": "Claude agrees with everything you say. This skill fixes that - Claude Council",
+      "view_count": 133244,
+      "like_count": 9805,
+      "comment_count": 4100,
+      "duration_sec": 87.3535,
+      "wpm": 204.7,
+      "word_count": 298,
+      "sentence_count": 21,
+      "avg_words_per_sentence": 14.0,
+      "hook_0_3s": "Claude is a yes man, until you use this skill. That is",
+      "opening_sentence": "Claude is a yes man, until you use this skill.",
+      "second_sentence": "That is exactly why this skill is spreading so fast.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "026_PWRWO749oro",
+      "title": "Top 5 Claude Code Plugins Every Developer Needs From Day One",
+      "view_count": 126283,
+      "like_count": 4572,
+      "comment_count": 754,
+      "duration_sec": 133.4683,
+      "wpm": 160.0,
+      "word_count": 356,
+      "sentence_count": 32,
+      "avg_words_per_sentence": 10.9,
+      "hook_0_3s": "If you are just stepping into Claude code, here are the five Claude",
+      "opening_sentence": "If you are just stepping into Claude code, here are the five Claude code plugins you actually need from day one.",
+      "second_sentence": "Number one is ponytail.",
+      "outro_sentences": "The system only sends it to followers. >>"
+    },
+    {
+      "slug": "034_O1zei0WXHvY",
+      "title": "Someone just open sourced Claude Design and made it completely free.",
+      "view_count": 97471,
+      "like_count": 3482,
+      "comment_count": 1000,
+      "duration_sec": 74.0949,
+      "wpm": 190.3,
+      "word_count": 235,
+      "sentence_count": 16,
+      "avg_words_per_sentence": 14.7,
+      "hook_0_3s": "Someone just open-sourced design and made it completely free.",
+      "opening_sentence": "Someone just open-sourced design and made it completely free.",
+      "second_sentence": "It's called open design and it does everything Claude does but with no usage limits, no paywalls, and no subscription eating your wallet.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "032_MBAwGQTOOe4",
+      "title": "Top 3 Claude Code Skills You Need to Install Right Now",
+      "view_count": 89775,
+      "like_count": 2777,
+      "comment_count": 462,
+      "duration_sec": 87.9804,
+      "wpm": 190.3,
+      "word_count": 279,
+      "sentence_count": 24,
+      "avg_words_per_sentence": 11.5,
+      "hook_0_3s": "Everyone using Claude without skills is just wasting their tokens.",
+      "opening_sentence": "Everyone using Claude without skills is just wasting their tokens.",
+      "second_sentence": "Here are the top three Claude skills you actually need.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "016_KGGpiYJWXHU",
+      "title": "Top 5 Claude Skills Out of 100,000 That Actually Matter",
+      "view_count": 87504,
+      "like_count": 3399,
+      "comment_count": 809,
+      "duration_sec": 92.8798,
+      "wpm": 171.8,
+      "word_count": 266,
+      "sentence_count": 21,
+      "avg_words_per_sentence": 12.4,
+      "hook_0_3s": "Claude has over 100,000 skills, [music] but you only",
+      "opening_sentence": "Claude has over 100,000 skills,  but you only need five of them.",
+      "second_sentence": "First is find skills.",
+      "outro_sentences": "Make sure you follow Insider Force. The system only it to followers."
+    }
+  ],
+  "all_87_hooks": [
+    {
+      "slug": "001_23cUNfHdJcc",
+      "views": 25036,
+      "title": "Claude Code Can Now Launch Any Website It Builds Live on the Internet for Free - AweShell",
+      "hook": "Cloud Code can now launch any website it builds live on the internet.",
+      "bridge": "All you need is one free tool to unlock it.",
+      "outro": "Comment shell and I will send you the direct link. Make sure you follow insider force."
+    },
+    {
+      "slug": "002_j5-XLj2E9g4",
+      "views": 12165,
+      "title": "You Can Now Build Immersive Websites using AI and Rank It on Google, ChatGPT, Perplexity - No Code",
+      "hook": "People are building and selling immersive websites using AI right now, and those sites are dominating search engines and AI platforms at a scale previously only possible for the biggest companies in the world.",
+      "bridge": "This is how you can do that exact same thing starting today.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "003_qGuDcRRJAD4",
+      "views": 26321,
+      "title": "Top 5 Free Claude Code Plugins Every Vibe Coder Needs Before They Ship",
+      "hook": "If you vibe code with Claude code, here are five free Claude code plugins you actually need.",
+      "bridge": "Number one is Playwright MCP.",
+      "outro": "Make sure you follow Insider  Force. The system only sends it to followers."
+    },
+    {
+      "slug": "004_RKZOKc51wz4",
+      "views": 37026,
+      "title": "Free GitHub Repo That Could End Your AI API Bill Forever",
+      "hook": "There is a GitHub repo almost nobody knows about that could end your API bill forever.",
+      "bridge": "It lists 146 free LLM APIs from 24 providers, all of them with permanent free tiers.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "005_TWSOfNXgL-c",
+      "views": 50050,
+      "title": "Claude Can Now Build Your Entire Online Business and Run It 24/7 for Free",
+      "hook": "You can now use Claude to sell anything you want and wipe out every competitor with a powerful automated system that never sleeps, never stops, and never lets anyone get ahead of you.",
+      "bridge": "And it is completely  free.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "006_CvelXUzEopU",
+      "views": 48036,
+      "title": "There Is Finally a Claude That Builds Entire Worlds and Lets You Walk Through Them - Neta Art",
+      "hook": "There is finally a cloud for bringing your wildest world-building ideas into something real.",
+      "bridge": "You describe it in one sentence and it builds an entire universe with its own geography, its own history, and its own characters.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to"
+    },
+    {
+      "slug": "007_gwdJ9EzNJDI",
+      "views": 20025,
+      "title": "Claude, Codex, Cursor, and Grok Hallucinate Real Data and This Free Skill Fixes It - Glasser AI",
+      "hook": "Claude, Codex, Cursor, Grok, every one of them hallucinates real-world data confidently and delivers it in a way that makes it impossible to tell it was never real.",
+      "bridge": "This is the scariest  problem with every AI right now.",
+      "outro": "The system only sends it to followers. >>"
+    },
+    {
+      "slug": "008_OGrLbo3dskw",
+      "views": 20274,
+      "title": "8 Free Claude Code Commands That Turn Your Agent’s Technical Output Into Plain English",
+      "hook": "Free Claude code commands that turn your agent's technical output into plain English.",
+      "bridge": "Claude code does excellent work, but it reports back with a wall of technical language that leaves most Vibe coders completely in the dark.",
+      "outro": "Make sure you follow Insider Force. The system only sends  it to"
+    },
+    {
+      "slug": "009_jeR2zez-Jk4",
+      "views": 22278,
+      "title": "ChatGPT Can Now Create and Edit Professional Videos Using CapCut",
+      "hook": "Chat GPT can now create and edit professional videos using CapCut, and most people have no idea what that combination is actually capable of.",
+      "bridge": "You copy one prompt into Codex, and the entire workflow installs automatically.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "010_2BWt4v3jXSU",
+      "views": 32182,
+      "title": "Cursor, Codex, and Claude Code Have a Price Tag - This Free Platform does the work end to end.",
+      "hook": "Cursor has a price tag.",
+      "bridge": "Codex has a price tag.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "011_irXFtcohTco",
+      "views": 885981,
+      "title": "The Open Source Model Beating Claude Now Runs on a 4GB Laptop for Free",
+      "hook": "The open-source model that just beat Claude, you can now run it locally on any cheap laptop for free, forever.",
+      "bridge": "No subscriptions,  no usage restrictions, no internet required.",
+      "outro": "The system only sends it to followers. >>"
+    },
+    {
+      "slug": "012_ELsXhePjBxI",
+      "views": 443676,
+      "title": "This Free Tool Cuts Claude Code Token Usage by 49x on Large Codebases",
+      "hook": "Claude code developers are canceling their $200 plan because one developer quietly dropped a free tool that permanently solved the biggest token problem forever.",
+      "bridge": "The tool is called Graphify.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "013_HXbnn-sSNfg",
+      "views": 11576,
+      "title": "Cursor, Codex, and Claude Code Are Twice as Powerful When You Play This Free Game - Coddy Tech",
+      "hook": "Cursor has a price tag.",
+      "bridge": "Codex has a price tag.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "014_7IiDEWOUc6c",
+      "views": 25412,
+      "title": "5 Free Claude Code Plugins That Fix the Biggest Claude Problems Forever",
+      "hook": "Five free Claude code plugins that fix the biggest Claude problems forever.",
+      "bridge": "Number one is Omni route.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "015_3PdrMVnTqX4",
+      "views": 23500,
+      "title": "A 17 Year Old Just Made ManyChat's Most Profitable Feature Completely Free",
+      "hook": "A 17-year-old just made ManyChat's most profitable feature completely free.",
+      "bridge": "It is called open reply.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "016_KGGpiYJWXHU",
+      "views": 87504,
+      "title": "Top 5 Claude Skills Out of 100,000 That Actually Matter",
+      "hook": "Claude has over 100,000 skills,  but you only need five of them.",
+      "bridge": "First is find skills.",
+      "outro": "Make sure you follow Insider Force. The system only it to followers."
+    },
+    {
+      "slug": "017_CaHT7D_B03s",
+      "views": 154535,
+      "title": "Run a 744 Billion Parameter AI Model on a Regular Laptop for Free",
+      "hook": "Nvidia did not see this coming.",
+      "bridge": "A solo developer just made a 744 billion parameter AI model run on a regular laptop with no GPU and gave it away for free.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "018_LJ9B7esJpkI",
+      "views": 10285,
+      "title": "How to Create Viral Marketing Videos for Any Product Using CapCut AI Skills",
+      "hook": "You can now create viral style marketing videos to sell anything you want and wipe out every competitor using AI that does the entire production for you automatically.",
+      "bridge": "And going into any high-stakes sales moment like Black Friday, this is your cheat code for  taking every sale before anyone else is ready.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "019_PDgvmrfICDg",
+      "views": 16682,
+      "title": "This AI Creates Viral Videos Around What the Algorithm Actually Rewards - Korpi AI",
+      "hook": "There is finally a Claude for going viral on social media.",
+      "bridge": "You describe the idea and it creates the finished ready to post video around what the algorithm actually rewards.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "020_jaAI2evZF44",
+      "views": 12947,
+      "title": "Give Claude, Codex, and Cursor Access to Live Premium Data - Glasser AI",
+      "hook": "If you use Claude, Codec, Cursor, or Grok, this one tool is the only thing your setup has been missing, and it is the reason your agent keeps getting things wrong.",
+      "bridge": "Every AI agent you use right now has a live data problem.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "021_bS6IlkUozAI",
+      "views": 71448,
+      "title": "This Free Tool Cuts Claude Code Web Browsing Tokens by 90 Percent Permanently",
+      "hook": "Claude Code, Codex, Hermes, Open Code, they all have the same expensive habit.",
+      "bridge": "Every time they need information from a website, they start completely from scratch, burning thousands of tokens doing work they have already done before.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "022_rgSR8ggOwV4",
+      "views": 84332,
+      "title": "This Claude MCP Tool Replaces Your Entire Marketing Stack in One Workspace - TopView AI MCP",
+      "hook": "You can now use Claude to sell anything you want and wipe out every competitor with an AI system that never sleeps, never stops, and never lets anyone get ahead of you.",
+      "bridge": "Go to topview.ai/mcp, connect it to your Claude, and the whole thing is running.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "023_sExZjaZPcpM",
+      "views": 26120,
+      "title": "AI Agent Tool That Runs Your Entire Business While You Sleep",
+      "hook": "AI agents are taking over the internet right now, and this is the easiest way to get them running your entire business for you starting today.",
+      "bridge": "The tool is called SureThing, and there is one thing you need to know before anything else.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "024_4qIZmI_1Zgs",
+      "views": 234907,
+      "title": "Get 1000 Free APIs for Claude Code to Build Anything You Want",
+      "hook": "This is how you get 1,000 free APIs for Claude code to build anything you want.",
+      "bridge": "People are turning these free APIs into full platforms with real paying users.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "025_J_xP1PhUmqg",
+      "views": 36476,
+      "title": "Claude Code, Codex, and Cursor Just Got Ten Times Faster With This One Tool",
+      "hook": "Claude Code, Codec, Cursor, Grok, all are incredibly powerful, but the infrastructure underneath all of them was never designed for speed.",
+      "bridge": "This is exactly how you change that completely  starting today.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "026_PWRWO749oro",
+      "views": 126283,
+      "title": "Top 5 Claude Code Plugins Every Developer Needs From Day One",
+      "hook": "If you are just stepping into Claude code, here are the five Claude code plugins you actually need from day one.",
+      "bridge": "Number one is ponytail.",
+      "outro": "The system only sends it to followers. >>"
+    },
+    {
+      "slug": "027_Yi_itCkwbbI",
+      "views": 25861,
+      "title": "Give Claude, ChatGPT, and Gemini an Expert Brain in Every Field - AgentVolt AI",
+      "hook": "AI agents are taking over the internet right now and quietly making regular people into millionaires while they do almost nothing.",
+      "bridge": "This is exactly how you get them working for you  starting today.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "028_SwXcetzsSeI",
+      "views": 39722,
+      "title": "Claude, Gemini, ChatGPT, and Grok Combined Into One Tool - ChatLLM by Abacus AI",
+      "hook": "Claude, Gemini, Chat GPT, Grok.",
+      "bridge": "Every model is uniquely great at something different, but knowing which one to use for what has always been the hard part.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to  followers."
+    },
+    {
+      "slug": "029__ENDJNDJFas",
+      "views": 54845,
+      "title": "There Is Finally a Claude That Lets You Walk Through Your Own Imaginary World - Neta Art",
+      "hook": "There is finally a cloud for bringing your wildest imaginary worlds to life.",
+      "bridge": "You simply chat with it and it builds an entire universe around your idea and lets you step inside.",
+      "outro": "The system only sends it to followers. >>"
+    },
+    {
+      "slug": "030_21LvkiDcMi0",
+      "views": 185927,
+      "title": "Run Claude Code With Unlimited Usage for Free - 9Router",
+      "hook": "You can now run Claude code with unlimited usage completely  free.",
+      "bridge": "Save this before you hit your limit mid-session and lose everything you were working on.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "031_g3Mh8Hws-jo",
+      "views": 2232222,
+      "title": "This Anthropic Hackathon Winner Just Released His Entire Claude Code Setup for Free - ECC",
+      "hook": "This Anthropic Hackathon winner just released his entire Claude code setup for free.",
+      "bridge": "His name is Afan Mustafa.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "032_MBAwGQTOOe4",
+      "views": 89775,
+      "title": "Top 3 Claude Code Skills You Need to Install Right Now",
+      "hook": "Everyone using Claude without skills is just wasting their tokens.",
+      "bridge": "Here are the top three Claude skills you actually need.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "033_aX7QAfld7hs",
+      "views": 745918,
+      "title": "5 MCP servers every Claude Code user needs right now.",
+      "hook": "If you use Claude code, these are the five MCP servers you need right now.",
+      "bridge": "First is Perplexity MCP.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "034_O1zei0WXHvY",
+      "views": 97471,
+      "title": "Someone just open sourced Claude Design and made it completely free.",
+      "hook": "Someone just open-sourced design and made it completely free.",
+      "bridge": "It's called open design and it does everything Claude does but with no usage limits, no paywalls, and no subscription eating your wallet.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "035_vfLtsYbtJf0",
+      "views": 163372,
+      "title": "Stop Installing Claude Skills Manually, This Skill Does It For You",
+      "hook": "Stop installing Claude skills manually.",
+      "bridge": "Someone just built a skill that finds and installs the right one for you automatically.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "036_fUJXjHjqVJE",
+      "views": 20420,
+      "title": "4 Claude settings everyone should do before they type a single prompt.",
+      "hook": "Four Claude settings everyone should do before they type a single prompt.",
+      "bridge": "Most people open Claude, type a question, and get a generic answer.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "037_c_7ZjWwN04k",
+      "views": 30991,
+      "title": "1000 Expert Skills You Can Drop Into Claude, ChatGPT, or Cursor Right Now - AgentVolt",
+      "hook": "Cursor, Claude, Gemini, Chat GPT, every AI you use right now is a generalist.",
+      "bridge": "It gives everyone the same generic output, no matter what you ask.",
+      "outro": "The system only sends it to followers. >>"
+    },
+    {
+      "slug": "038_VRqW0d8-dIU",
+      "views": 43588,
+      "title": "Someone just gave Claude Code permanent memory and It's Free - Claude-mem",
+      "hook": "Someone just gave Claude Code permanent memory.",
+      "bridge": "It hit 46,000 GitHub stars at launch, and it has not stopped climbing since.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "039_DQtj7GJE8-I",
+      "views": 147300,
+      "title": "You Can Now Build a Full App and Run It With AI - No Code, No Developer",
+      "hook": "People are building and selling real apps using AI right now, and most of them have never touched code in their life.",
+      "bridge": "This is exactly how you do the same thing starting today.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "040_9zxDEXFH7cc",
+      "views": 33022,
+      "title": "Cursor, Codex, and Claude Code All Have This Blind Spot - This Free Tool Fixes All Three - V3Code",
+      "hook": "Cursor, CodeX, Claude Code, all have the same blind spot everyone hates.",
+      "bridge": "Someone just dropped a completely  free tool that permanently fixed all three of them forever.",
+      "outro": "Make sure you follow Insider Force. The system only  sends it to followers."
+    },
+    {
+      "slug": "041_Dx5BQtMlPYs",
+      "views": 24763,
+      "title": "First three Claude Code MCPs you install before anything else.",
+      "hook": "If you are just starting out with Claude code, these are the first three MCPs you install before  anything else.",
+      "bridge": "By itself, Claude code can write and run code, but it does not know your issues, your docs, >>  >> or whether the app you just built actually works.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "042_RhKMAIJny3Q",
+      "views": 9626,
+      "title": "Create a Viral Map Animation for Free Without After Effects - Dzine AI",
+      "hook": "Here's how you can create this viral map animation without wasting hours on After Effects, and  it's completely free.",
+      "bridge": "First, head on to dezign.ai.",
+      "outro": "The system only sends it to followers. >>"
+    },
+    {
+      "slug": "043_v4x3xmXXhjU",
+      "views": 11074,
+      "title": "Your Competitor Paid $4,000 to Find This Ad - You Can Copy It for Free",
+      "hook": "Your competitor's spent $4,000 testing ads to find the one that actually sells.",
+      "bridge": "You can now recreate that success for free.",
+      "outro": "Make sure you are following Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "044_8VPok4vbYBk",
+      "views": 133244,
+      "title": "Claude agrees with everything you say. This skill fixes that - Claude Council",
+      "hook": "Claude is a yes man, until you use this skill.",
+      "bridge": "That is exactly why this skill is spreading so fast.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "045_Dn7joxP2jO0",
+      "views": 16905,
+      "title": "This Hidden AI Automation Tool Runs Real Phones 24/7",
+      "hook": "There's a platform quietly changing how the entire internet works and most people have never heard of it.",
+      "bridge": "It's not a VPN, it's not a proxy, and it's not what you think.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "046_AAtagrbBOto",
+      "views": 372359,
+      "title": "One skill and Claude Code becomes a full motion design studio - Remotion",
+      "hook": "Claude code can now create stunning animations.",
+      "bridge": "All you need is one skill to unlock it and Claude code becomes your own personal motion design studio.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "047_3YCaEsf1mlM",
+      "views": 196366,
+      "title": "There is finally a Claude for AI video - Pexo AI",
+      "hook": "There is finally a Claude for AI video.",
+      "bridge": "You simply chat with it and it creates a finished ready to post video.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "048_enFgYQvI1dM",
+      "views": 973992,
+      "title": "The most powerful free coding agent on the market. And nobody's talking about it.",
+      "hook": "Cursor has a price tag.",
+      "bridge": "Codex has a price tag.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "049_3iUo7bnsN30",
+      "views": 466748,
+      "title": "You can now build a full APP for free.",
+      "hook": "You can build a full app for free and nobody is talking about this tool.",
+      "bridge": "It is called Open Code.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "050_5KX8wIu7g_A",
+      "views": 87163,
+      "title": "AI Agents Are Taking Over - This Platform Puts Them on Your Team - Bloome.im",
+      "hook": "AI agents are taking over the internet right now, and this is how you get them working for you today.",
+      "bridge": "And the people who figured this out first are already running entire operations without adding a single person to their team.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "051_zERBnd7_xjI",
+      "views": 8919,
+      "title": "One Developer Accidentally Broke Claude Code's Most Expensive Plan",
+      "hook": "Anthropic CEO called an emergency meeting this week.",
+      "bridge": "Not about AI safety, not about a competitor, about a single open-source tool one developer built in his spare time that is silently killing their most expensive plan.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "052_pT0SgR3s0RI",
+      "views": 7707,
+      "title": "Chatbox AI - ChatGPT, Claude, Gemini, DeepSeek, and Grok, all in one window",
+      "hook": "This is how you get Chat GPT, Claude, Gemini, Deep Seek, and Grok in one place for less than what most people pay for Claude alone.",
+      "bridge": "And the people who found it first are already saving time, money, and effort every single day.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "053_8E8XURd8uHE",
+      "views": 12209,
+      "title": "5 secret ChatGPT codes nobody is talking about.",
+      "hook": "Five secret chat GPT codes nobody is talking about.",
+      "bridge": "Number one, {slash} pulse.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "054_87gxpySpYKA",
+      "views": 9449,
+      "title": "5 secret Claude codes nobody is talking about. Part 3.",
+      "hook": "Five secret Claude codes nobody is talking about part three.",
+      "bridge": "Number one, {slash} blindspot.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "055_Xqw4WpGnuvc",
+      "views": 3355,
+      "title": "3 secret ChatGPT steps to pull the biggest discount out of any online store.",
+      "hook": "Three Chat GPT's secret steps to pull the highest discount out of any store online.",
+      "bridge": "Here is exactly how to do it.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "056_DSTOK9Ui2rw",
+      "views": 77431,
+      "title": "4 Claude skills to make your RESUME unrejectable",
+      "hook": "Four Claude skills to make your resume unrejectable.",
+      "bridge": "After this, hiring managers will be competing to get you on their team.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "057_79oXNy3rVGI",
+      "views": 3807,
+      "title": "Stop starting your AI image prompts from scratch.",
+      "hook": "99% of people using AI are doing this completely wrong.",
+      "bridge": "If you're starting your AI image prompts from scratch, stop.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "058_a7TTgpIWALw",
+      "views": 5088,
+      "title": "This AI animation app going viral right now",
+      "hook": "These AI animations are going viral on social media right now, generating millions of views and nobody is talking about the app behind them.",
+      "bridge": "It is called Animate Jam AI.",
+      "outro": "People are building entire animated series from their phones and growing massive audiences. Comment, render, and I will send you the direct link and a ready-to-use prompt so you can try it for free today."
+    },
+    {
+      "slug": "059_Aatt2BPJvN0",
+      "views": 4694,
+      "title": "5 secret Claude codes nobody is talking about. Part 2.",
+      "hook": "Five secret Claude codes nobody is talking about, part two.",
+      "bridge": "Number one, {slash} landmine.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "060_I7B7-R-4s9c",
+      "views": 519592,
+      "title": "5 Claude features that run your entire business while you sleep.",
+      "hook": "Five Claude features that run your entire business  while you sleep.",
+      "bridge": "If you are still using Claude like a search engine, you are only getting 10% of what it can actually do.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "061_3QGodkf-F8M",
+      "views": 4917,
+      "title": "6 ways to turn Claude Code into a full engineering team in under 5 minutes",
+      "hook": "Six ways to turn Claude code into a full engineering team in under 5 minutes.",
+      "bridge": "Number one, stack.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "062_0JZtdAtJiyk",
+      "views": 848719,
+      "title": "Top 3 Claude Code Skills for Non-Designers",
+      "hook": "Three Claude code skills that make you look like a designer overnight.",
+      "bridge": "First, taste skill.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "063_TU5UgtGaKrE",
+      "views": 2711,
+      "title": "Claude AI Find and Pitches Clients for You",
+      "hook": "Claude Cowork just made client prospecting obsolete.",
+      "bridge": "One prompt, pick a city,  pick a business type, and it takes it from there.",
+      "outro": "A simple step-by-step guide to make  AI copy sound 100% human. Make sure you follow Insider Force, the system only sends it to followers."
+    },
+    {
+      "slug": "064_fxR6UX6KfeY",
+      "views": 2977,
+      "title": "How I turned Claude code into a six-person team in 30 seconds.",
+      "hook": "How I turned  Claude code into a six-person team in 30 seconds.",
+      "bridge": "What used to cost a six-person team is now one terminal command.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "065_8KUx1HzrDDA",
+      "views": 2679,
+      "title": "ChatGPT vs Claude - which one is actually better for you?",
+      "hook": "Chat GPT versus Claude, which one is actually better for you?",
+      "bridge": "Chat GPT is faster out of the box.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "066_JBA2MaADaVA",
+      "views": 4439,
+      "title": "Five secret Claude codes nobody is talking about.",
+      "hook": "Five secret Claude codes nobody is talking about.",
+      "bridge": "Number one, {slash} ghost.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "067_3vj5VFwATHA",
+      "views": 1256,
+      "title": "Stop confusing “BRANDING” with “MARKETING”. 🛑",
+      "hook": "What's the difference between branding and marketing?",
+      "bridge": "Branding is who you are.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "068_NgDLV0ersV8",
+      "views": 1073,
+      "title": "3 Psychology concepts your marketing is “MISSING!”",
+      "hook": "Here are three psychology concepts your marketing is missing.",
+      "bridge": "First, loss aversion.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "069_gq26XX1obfs",
+      "views": 1492,
+      "title": "Want to build a stronger brand? Steal these “3 SALES SECRETS” 💡💰",
+      "hook": "To build a successful brand, steal these three sales secrets.",
+      "bridge": "One, never charge customers for delivery.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "070_LWN_Gr5Gzpk",
+      "views": 1522,
+      "title": "Stop Selling Products, Sell \"RESULTS\"",
+      "hook": "Stop selling the product, sell the benefit.",
+      "bridge": "Most brands fail because they talk about what the product is, not what it does for the customer.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "071_QtZCDSHlwlY",
+      "views": 1789,
+      "title": "7 words to NEVER say in Sales. ❌",
+      "hook": "Seven words to never say in sales.",
+      "bridge": "Don't say buy,  say invest because people invest in value.",
+      "outro": "Make sure you follow Insider Force. The system only sends it to followers."
+    },
+    {
+      "slug": "072_Ni0-FtjFKdY",
+      "views": 1750,
+      "title": "🔥 Tesla Didn't Win By Being Better. They Won By Being Different - Law of Category",
+      "hook": "Tesla isn't the first car company.",
+      "bridge": "Then how is it a trillion-dollar brand?",
+      "outro": "They win by creating a new category so sharp that competitors can't even enter it without looking like copycats. Follow Insider Force to learn how to build a category that no one else can touch."
+    },
+    {
+      "slug": "073_uCJ3dt9sYnE",
+      "views": 5161,
+      "title": "Sell Without Selling - Watch People Come to You Every Single Time!",
+      "hook": "The easiest way to sell something is to sell water to the thirsty.",
+      "bridge": ">>  >> What this really means is simple.",
+      "outro": "They choose it willingly. Follow Insider Force for more."
+    },
+    {
+      "slug": "074_2kKED1a0PlY",
+      "views": 923,
+      "title": "How the Biggest Companies Make Billions Without Owning a Thing",
+      "hook": "The smartest businesses don't sell products.",
+      "bridge": "They sell access.",
+      "outro": "This is just the surface. The real shift begins when you check the link in my bio."
+    },
+    {
+      "slug": "075_nJyioNJPDeE",
+      "views": 1441,
+      "title": "✨ Luxury Branding Is Not About Price. It Is About Desire.",
+      "hook": "If you want your brand to be perceived as luxury, steal these three principles.",
+      "bridge": "First, controlled scarcity.",
+      "outro": "This is just the surface. The real shift begins when you check the link in my bio."
+    },
+    {
+      "slug": "076_Ox_rVzRp93E",
+      "views": 3001,
+      "title": "🔥 One Person. AI Leverage. Billion-Dollar Reality.",
+      "hook": "One person can build a billiondoll company today.",
+      "bridge": "And most people have no idea how fast the gap is widening.",
+      "outro": "Go now. The people moving first are the ones who"
+    },
+    {
+      "slug": "077_rjliPjp2jJg",
+      "views": 758,
+      "title": "🧩 If your idea feels safe, it is already crowded.",
+      "hook": "Imagine pitching SpaceX before SpaceX existed.",
+      "bridge": "You walk into a room and say, \"We're going to build rockets that land themselves, and we'll launch them again like nothing happened.\" Or imagine pitching ChatGPT before anyone knew the name.",
+      "outro": "If your idea feels safe, it's too small. Follow Insider Force to build what others are too scared to attempt."
+    },
+    {
+      "slug": "078_LGMqSi1xa_Y",
+      "views": 1611,
+      "title": "🔥 Make People Buy Without Saying a Single Word!",
+      "hook": "You can make people buy without saying a word to them.",
+      "bridge": "The method is called priming, and it's the hidden force behind every successful brand.",
+      "outro": "This  is just the surface. The real shift begins when you check the link in my bio."
+    },
+    {
+      "slug": "079_63du85k1bng",
+      "views": 758,
+      "title": "🔥 Ultra Convenience Is the Real Money Machine Nobody Talks About!",
+      "hook": "When you buy a coffee with cash, it costs $5.",
+      "bridge": "But if you use DoorDash, it costs $10 with a load of fees.",
+      "outro": "This is just the surface. The real shift begins when you check the link in my bio."
+    },
+    {
+      "slug": "080_hAXcHfuigtU",
+      "views": 757,
+      "title": "5 Proven Steps Brands Use to Turn Ordinary Products Into Massive Profit!",
+      "hook": "Five steps that turn products into profit.",
+      "bridge": "Step one, start with demand.",
+      "outro": "This is just the surface. The real shift begins when you check the link in my bio."
+    },
+    {
+      "slug": "081_afleTFEUjic",
+      "views": 760,
+      "title": "🔥Part 7 | The Gift Card Scam That Makes Businesses Rich.",
+      "hook": "The dark secret behind gift cards.",
+      "bridge": "Banks charge interest.",
+      "outro": "This is just the surface. The real shift begins when you check the link in my bio."
+    },
+    {
+      "slug": "082_GVqRSnXPlqQ",
+      "views": 815,
+      "title": "Part 6 | Why $200 Steak Makes You Choose $80 🍽️ | The Secret Psychology Restaurants Don’t Tell You.",
+      "hook": "Why do restaurants put a $200 dish on the menu that almost nobody orders?",
+      "bridge": "It's not there to be sold.",
+      "outro": "This is just the surface. The real shift begins when you check the link in my bio."
+    },
+    {
+      "slug": "083_HCOSF90eqWI",
+      "views": 787,
+      "title": "Part 5 | Sell More by Saying Less, The Silent Sales Advantage Nobody Teaches",
+      "hook": "Sell more by saying less.",
+      "bridge": "What do I mean?",
+      "outro": "Because in sales, understanding beats talking. Follow Insider Force to learn how."
+    },
+    {
+      "slug": "084_B9UK2acm53s",
+      "views": 839,
+      "title": "Part 4 | Why Your Skills Aren’t Making You Money #growyourbrand #entrepreneurlife",
+      "hook": "If people don't see you, they won't pay you.",
+      "bridge": "It's not about how good you are, it's about how visible you are.",
+      "outro": "Be known, be remembered, be paid. Follow Insider Force to learn how."
+    },
+    {
+      "slug": "085_F6smRuq0Mpo",
+      "views": 1080,
+      "title": "Part 3 | Target Audience vs Target Customer – Stop Chasing Likes, Start Attracting Buyers!",
+      "hook": "What's the difference between a target audience and a target customer?",
+      "bridge": "Understanding this helps you craft better marketing and boost conversions.",
+      "outro": "This is just the surface. The real shift begins when you check the link in my bio."
+    },
+    {
+      "slug": "086_tZPNjOPUYbM",
+      "views": 1569,
+      "title": "Part 2 | How to Make People Pay More - Without Feeling Overpriced 💡",
+      "hook": "Lower prices equal higher sales.",
+      "bridge": "That's the biggest lie in business.",
+      "outro": "This is just the surface. The real shift begins when you check the link in my bio."
+    },
+    {
+      "slug": "087_Jn530mh7s-w",
+      "views": 3792,
+      "title": "Part 1 | You will NEVER Grow Your Business Until You Understand This!",
+      "hook": "Most businesses fail because they confuse these two words.",
+      "bridge": "Marketing creates demand.",
+      "outro": "This is just the  surface. The real shift begins when you check the link in my bio."
+    }
+  ]
+}

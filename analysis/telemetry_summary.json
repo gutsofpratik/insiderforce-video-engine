@@ -1,0 +1,83 @@
+[
+  {
+    "slug": "004_RKZOKc51wz4",
+    "shots": 36,
+    "bursts": 72,
+    "fps": 30.0,
+    "duration_sec": 85.6584,
+    "transients": 345,
+    "has_subs": true
+  },
+  {
+    "slug": "009_jeR2zez-Jk4",
+    "shots": 46,
+    "bursts": 66,
+    "fps": 30.0,
+    "duration_sec": 90.047,
+    "transients": 375,
+    "has_subs": true
+  },
+  {
+    "slug": "003_qGuDcRRJAD4",
+    "shots": 39,
+    "bursts": 55,
+    "fps": 30.0001,
+    "duration_sec": 91.8814,
+    "transients": 386,
+    "has_subs": true
+  },
+  {
+    "slug": "022_rgSR8ggOwV4",
+    "shots": 52,
+    "bursts": 79,
+    "fps": 30.0003,
+    "duration_sec": 113.3598,
+    "transients": 413,
+    "has_subs": true
+  },
+  {
+    "slug": "023_sExZjaZPcpM",
+    "shots": 44,
+    "bursts": 100,
+    "fps": 30.0002,
+    "duration_sec": 106.7189,
+    "transients": 380,
+    "has_subs": true
+  },
+  {
+    "slug": "025_J_xP1PhUmqg",
+    "shots": 47,
+    "bursts": 83,
+    "fps": 30.0001,
+    "duration_sec": 106.7886,
+    "transients": 402,
+    "has_subs": true
+  },
+  {
+    "slug": "068_NgDLV0ersV8",
+    "shots": 37,
+    "bursts": 50,
+    "fps": 30.0,
+    "duration_sec": 87.1445,
+    "transients": 282,
+    "has_subs": true
+  },
+  {
+    "slug": "069_gq26XX1obfs",
+    "shots": 30,
+    "bursts": 29,
+    "fps": 30.0,
+    "duration_sec": 72.9803,
+    "transients": 231,
+    "has_subs": true
+  },
+  {
+    "slug": "079_63du85k1bng",
+    "shots": 30,
+    "bursts": 28,
+    "fps": 30.0,
+    "duration_sec": 80.3643,
+    "transients": 284,
+    "has_subs": true
+  }
+]

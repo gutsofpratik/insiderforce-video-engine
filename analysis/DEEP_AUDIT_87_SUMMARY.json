@@ -1,0 +1,288 @@
+{
+  "audited_videos": 87,
+  "total_videos_in_workspace": 87,
+  "composition_ratio_across_all_videos": {
+    "real_video_or_screen_recording_pct": {
+      "mean": 9.6,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 66.0
+    },
+    "framed_real_screenshots_pct": {
+      "mean": 29.13,
+      "median": 32.0,
+      "min": 0.0,
+      "max": 71.0
+    },
+    "real_brand_icons_and_pucks_pct": {
+      "mean": 24.71,
+      "median": 21.0,
+      "min": 3.0,
+      "max": 55.0
+    },
+    "pure_kinetic_typography_pct": {
+      "mean": 36.56,
+      "median": 38.0,
+      "min": 11.0,
+      "max": 65.0
+    }
+  },
+  "modality_adoption_counts": {
+    "videos_using_real_video_or_screen_recording": 43,
+    "videos_using_framed_real_screenshots": 76,
+    "videos_using_real_brand_icons_or_pucks": 87
+  },
+  "top_asset_and_footage_motifs": [
+    [
+      "3d",
+      78
+    ],
+    [
+      "crown",
+      72
+    ],
+    [
+      "claude",
+      50
+    ],
+    [
+      "book",
+      47
+    ],
+    [
+      "terminal",
+      37
+    ],
+    [
+      "cursor",
+      28
+    ],
+    [
+      "browser",
+      25
+    ],
+    [
+      "silhouette",
+      22
+    ],
+    [
+      "github",
+      20
+    ],
+    [
+      "screen recording",
+      17
+    ],
+    [
+      "iphone",
+      8
+    ],
+    [
+      "cursor arrow",
+      7
+    ],
+    [
+      "notion",
+      4
+    ],
+    [
+      "supabase",
+      2
+    ],
+    [
+      "webcam",
+      1
+    ],
+    [
+      "vercel",
+      1
+    ]
+  ],
+  "top_text_and_list_markers": [
+    [
+      "\u2726",
+      66
+    ],
+    [
+      "inverted pill",
+      63
+    ],
+    [
+      "underline",
+      41
+    ],
+    [
+      "\u2192",
+      28
+    ],
+    [
+      "\"",
+      17
+    ],
+    [
+      "+",
+      17
+    ],
+    [
+      "crown logo",
+      13
+    ],
+    [
+      "\u00d7",
+      9
+    ],
+    [
+      "\u25c6",
+      9
+    ],
+    [
+      "dashed bounding box",
+      7
+    ],
+    [
+      "\u2715",
+      6
+    ],
+    [
+      "vector cursor arrow",
+      5
+    ],
+    [
+      "curved black ribbon",
+      4
+    ],
+    [
+      "quote marks",
+      3
+    ],
+    [
+      "\u2297",
+      3
+    ]
+  ],
+  "closing_and_loop_patterns": {
+    "insiderforce_crown_or_brand_lockup": 75,
+    "comment_keyword_prompt": 43,
+    "follow_gate_reminder": 76,
+    "seamless_loop_or_hard_cut": 74,
+    "3d_book_or_guide_cta": 37
+  },
+  "audio_balance_from_deep_audits": {
+    "voice_peak_db": {
+      "mean": -13.71,
+      "median": -12.6,
+      "min": -18.8,
+      "max": -8.7
+    },
+    "music_floor_db": {
+      "mean": -25.94,
+      "median": -25.0,
+      "min": -34.8,
+      "max": -21.6
+    },
+    "voice_to_music_gap_db": {
+      "mean": 12.22,
+      "median": 11.6,
+      "min": 9.5,
+      "max": 17.6
+    }
+  },
+  "top_real_footage_heavy_videos": [
+    {
+      "slug": "058_a7TTgpIWALw",
+      "real_video_pct": 66.0,
+      "screenshots_pct": 11.0,
+      "icons_pucks_pct": 3.0,
+      "pure_typo_pct": 20.0,
+      "asset_count": 13
+    },
+    {
+      "slug": "042_RhKMAIJny3Q",
+      "real_video_pct": 35.0,
+      "screenshots_pct": 40.0,
+      "icons_pucks_pct": 5.0,
+      "pure_typo_pct": 20.0,
+      "asset_count": 8
+    },
+    {
+      "slug": "054_87gxpySpYKA",
+      "real_video_pct": 0.0,
+      "screenshots_pct": 71.0,
+      "icons_pucks_pct": 18.0,
+      "pure_typo_pct": 11.0,
+      "asset_count": 14
+    },
+    {
+      "slug": "006_CvelXUzEopU",
+      "real_video_pct": 32.0,
+      "screenshots_pct": 38.0,
+      "icons_pucks_pct": 12.0,
+      "pure_typo_pct": 18.0,
+      "asset_count": 15
+    },
+    {
+      "slug": "029__ENDJNDJFas",
+      "real_video_pct": 38.0,
+      "screenshots_pct": 32.0,
+      "icons_pucks_pct": 10.0,
+      "pure_typo_pct": 20.0,
+      "asset_count": 20
+    },
+    {
+      "slug": "039_DQtj7GJE8-I",
+      "real_video_pct": 35.0,
+      "screenshots_pct": 35.0,
+      "icons_pucks_pct": 15.0,
+      "pure_typo_pct": 15.0,
+      "asset_count": 14
+    },
+    {
+      "slug": "040_9zxDEXFH7cc",
+      "real_video_pct": 38.0,
+      "screenshots_pct": 32.0,
+      "icons_pucks_pct": 15.0,
+      "pure_typo_pct": 15.0,
+      "asset_count": 18
+    },
+    {
+      "slug": "059_Aatt2BPJvN0",
+      "real_video_pct": 0.0,
+      "screenshots_pct": 70.0,
+      "icons_pucks_pct": 18.0,
+      "pure_typo_pct": 12.0,
+      "asset_count": 14
+    },
+    {
+      "slug": "037_c_7ZjWwN04k",
+      "real_video_pct": 35.0,
+      "screenshots_pct": 30.0,
+      "icons_pucks_pct": 18.0,
+      "pure_typo_pct": 17.0,
+      "asset_count": 18
+    },
+    {
+      "slug": "019_PDgvmrfICDg",
+      "real_video_pct": 38.0,
+      "screenshots_pct": 26.0,
+      "icons_pucks_pct": 14.0,
+      "pure_typo_pct": 22.0,
+      "asset_count": 21
+    },
+    {
+      "slug": "031_g3Mh8Hws-jo",
+      "real_video_pct": 28.0,
+      "screenshots_pct": 36.0,
+      "icons_pucks_pct": 16.0,
+      "pure_typo_pct": 20.0,
+      "asset_count": 14
+    },
+    {
+      "slug": "053_8E8XURd8uHE",
+      "real_video_pct": 0.0,
+      "screenshots_pct": 63.0,
+      "icons_pucks_pct": 18.0,
+      "pure_typo_pct": 19.0,
+      "asset_count": 14
+    }
+  ]
+}

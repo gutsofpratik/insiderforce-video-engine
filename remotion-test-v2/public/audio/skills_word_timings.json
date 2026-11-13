@@ -1,0 +1,1201 @@
+{
+  "voice": "ElevenLabs User Narration (Cut + 1.108x Broadcast Mastered)",
+  "rate": "1.108x",
+  "fps": 30,
+  "duration_sec": 69.177,
+  "total_frames": 2100,
+  "word_count": 170,
+  "actual_wpm": 147.4,
+  "words": [
+    {
+      "text": "Most",
+      "start_ms": 0.0,
+      "end_ms": 214.5,
+      "startFrame": 0,
+      "endFrame": 6
+    },
+    {
+      "text": "developers",
+      "start_ms": 214.5,
+      "end_ms": 823.1,
+      "startFrame": 6,
+      "endFrame": 25
+    },
+    {
+      "text": "still",
+      "start_ms": 952.8,
+      "end_ms": 1227.2,
+      "startFrame": 29,
+      "endFrame": 37
+    },
+    {
+      "text": "paste",
+      "start_ms": 1242.2,
+      "end_ms": 1611.3,
+      "startFrame": 37,
+      "endFrame": 48
+    },
+    {
+      "text": "the",
+      "start_ms": 1611.3,
+      "end_ms": 1673.7,
+      "startFrame": 48,
+      "endFrame": 50
+    },
+    {
+      "text": "same",
+      "start_ms": 1673.7,
+      "end_ms": 2160.1,
+      "startFrame": 50,
+      "endFrame": 65
+    },
+    {
+      "text": "giant",
+      "start_ms": 2274.8,
+      "end_ms": 2641.5,
+      "startFrame": 68,
+      "endFrame": 79
+    },
+    {
+      "text": "prompts",
+      "start_ms": 2663.9,
+      "end_ms": 3102.9,
+      "startFrame": 80,
+      "endFrame": 93
+    },
+    {
+      "text": "into",
+      "start_ms": 3112.9,
+      "end_ms": 3252.6,
+      "startFrame": 93,
+      "endFrame": 98
+    },
+    {
+      "text": "Claude",
+      "start_ms": 3252.6,
+      "end_ms": 3591.8,
+      "startFrame": 98,
+      "endFrame": 108
+    },
+    {
+      "text": "Code",
+      "start_ms": 3621.8,
+      "end_ms": 3921.1,
+      "startFrame": 109,
+      "endFrame": 118
+    },
+    {
+      "text": "every",
+      "start_ms": 4065.8,
+      "end_ms": 4370.1,
+      "startFrame": 122,
+      "endFrame": 131
+    },
+    {
+      "text": "single",
+      "start_ms": 4385.0,
+      "end_ms": 4829.0,
+      "startFrame": 132,
+      "endFrame": 145
+    },
+    {
+      "text": "day",
+      "start_ms": 4829.0,
+      "end_ms": 5270.5,
+      "startFrame": 145,
+      "endFrame": 158
+    },
+    {
+      "text": "But",
+      "start_ms": 5429.6,
+      "end_ms": 5489.5,
+      "startFrame": 163,
+      "endFrame": 165
+    },
+    {
+      "text": "Anthropic",
+      "start_ms": 5489.5,
+      "end_ms": 6098.1,
+      "startFrame": 165,
+      "endFrame": 183
+    },
+    {
+      "text": "quietly",
+      "start_ms": 6108.1,
+      "end_ms": 6691.7,
+      "startFrame": 183,
+      "endFrame": 201
+    },
+    {
+      "text": "released",
+      "start_ms": 6691.7,
+      "end_ms": 7290.4,
+      "startFrame": 201,
+      "endFrame": 219
+    },
+    {
+      "text": "Agent",
+      "start_ms": 7350.2,
+      "end_ms": 7689.5,
+      "startFrame": 221,
+      "endFrame": 231
+    },
+    {
+      "text": "Skills",
+      "start_ms": 7689.5,
+      "end_ms": 8268.1,
+      "startFrame": 231,
+      "endFrame": 248
+    },
+    {
+      "text": "lightweight",
+      "start_ms": 8404.0,
+      "end_ms": 8803.1,
+      "startFrame": 252,
+      "endFrame": 264
+    },
+    {
+      "text": "skill",
+      "start_ms": 8803.1,
+      "end_ms": 9167.3,
+      "startFrame": 264,
+      "endFrame": 275
+    },
+    {
+      "text": "markdown",
+      "start_ms": 9167.3,
+      "end_ms": 9641.2,
+      "startFrame": 275,
+      "endFrame": 289
+    },
+    {
+      "text": "playbooks",
+      "start_ms": 9653.7,
+      "end_ms": 10214.9,
+      "startFrame": 290,
+      "endFrame": 306
+    },
+    {
+      "text": "that",
+      "start_ms": 10229.9,
+      "end_ms": 10374.5,
+      "startFrame": 307,
+      "endFrame": 311
+    },
+    {
+      "text": "upgrade",
+      "start_ms": 10449.4,
+      "end_ms": 10888.4,
+      "startFrame": 313,
+      "endFrame": 327
+    },
+    {
+      "text": "Claude",
+      "start_ms": 10893.3,
+      "end_ms": 11297.4,
+      "startFrame": 327,
+      "endFrame": 339
+    },
+    {
+      "text": "automatically",
+      "start_ms": 11337.3,
+      "end_ms": 12155.5,
+      "startFrame": 340,
+      "endFrame": 365
+    },
+    {
+      "text": "Here",
+      "start_ms": 12362.3,
+      "end_ms": 12487.0,
+      "startFrame": 371,
+      "endFrame": 375
+    },
+    {
+      "text": "are",
+      "start_ms": 12497.0,
+      "end_ms": 12636.7,
+      "startFrame": 375,
+      "endFrame": 379
+    },
+    {
+      "text": "the",
+      "start_ms": 12636.7,
+      "end_ms": 12729.0,
+      "startFrame": 379,
+      "endFrame": 382
+    },
+    {
+      "text": "top",
+      "start_ms": 12729.0,
+      "end_ms": 13010.8,
+      "startFrame": 382,
+      "endFrame": 390
+    },
+    {
+      "text": "three",
+      "start_ms": 13010.8,
+      "end_ms": 13270.2,
+      "startFrame": 390,
+      "endFrame": 398
+    },
+    {
+      "text": "skills",
+      "start_ms": 13270.2,
+      "end_ms": 13669.3,
+      "startFrame": 398,
+      "endFrame": 410
+    },
+    {
+      "text": "to",
+      "start_ms": 13669.3,
+      "end_ms": 13781.6,
+      "startFrame": 410,
+      "endFrame": 413
+    },
+    {
+      "text": "connect",
+      "start_ms": 13799.0,
+      "end_ms": 14233.0,
+      "startFrame": 414,
+      "endFrame": 427
+    },
+    {
+      "text": "right",
+      "start_ms": 14233.0,
+      "end_ms": 14502.4,
+      "startFrame": 427,
+      "endFrame": 435
+    },
+    {
+      "text": "now",
+      "start_ms": 14502.4,
+      "end_ms": 14926.5,
+      "startFrame": 435,
+      "endFrame": 448
+    },
+    {
+      "text": "First",
+      "start_ms": 15151.6,
+      "end_ms": 15634.5,
+      "startFrame": 455,
+      "endFrame": 469
+    },
+    {
+      "text": "frontend-design",
+      "start_ms": 15729.3,
+      "end_ms": 16762.8,
+      "startFrame": 472,
+      "endFrame": 503
+    },
+    {
+      "text": "Normally",
+      "start_ms": 16893.7,
+      "end_ms": 17352.7,
+      "startFrame": 507,
+      "endFrame": 521
+    },
+    {
+      "text": "AI",
+      "start_ms": 17492.3,
+      "end_ms": 17881.5,
+      "startFrame": 525,
+      "endFrame": 536
+    },
+    {
+      "text": "interfaces",
+      "start_ms": 18001.2,
+      "end_ms": 18510.0,
+      "startFrame": 540,
+      "endFrame": 555
+    },
+    {
+      "text": "look",
+      "start_ms": 18510.0,
+      "end_ms": 18694.6,
+      "startFrame": 555,
+      "endFrame": 561
+    },
+    {
+      "text": "generic",
+      "start_ms": 18724.5,
+      "end_ms": 19403.0,
+      "startFrame": 562,
+      "endFrame": 582
+    },
+    {
+      "text": "and",
+      "start_ms": 19418.0,
+      "end_ms": 19527.7,
+      "startFrame": 583,
+      "endFrame": 586
+    },
+    {
+      "text": "templated",
+      "start_ms": 19527.7,
+      "end_ms": 20369.0,
+      "startFrame": 586,
+      "endFrame": 611
+    },
+    {
+      "text": "This",
+      "start_ms": 20499.9,
+      "end_ms": 20614.6,
+      "startFrame": 615,
+      "endFrame": 618
+    },
+    {
+      "text": "skill",
+      "start_ms": 20629.6,
+      "end_ms": 20973.8,
+      "startFrame": 619,
+      "endFrame": 629
+    },
+    {
+      "text": "loads",
+      "start_ms": 20973.8,
+      "end_ms": 21412.8,
+      "startFrame": 629,
+      "endFrame": 642
+    },
+    {
+      "text": "strict",
+      "start_ms": 21592.4,
+      "end_ms": 21767.0,
+      "startFrame": 648,
+      "endFrame": 653
+    },
+    {
+      "text": "design",
+      "start_ms": 21767.0,
+      "end_ms": 22151.1,
+      "startFrame": 653,
+      "endFrame": 665
+    },
+    {
+      "text": "systems",
+      "start_ms": 22171.1,
+      "end_ms": 22729.8,
+      "startFrame": 665,
+      "endFrame": 682
+    },
+    {
+      "text": "bold",
+      "start_ms": 22789.7,
+      "end_ms": 23193.8,
+      "startFrame": 684,
+      "endFrame": 696
+    },
+    {
+      "text": "typography",
+      "start_ms": 23218.7,
+      "end_ms": 23797.4,
+      "startFrame": 697,
+      "endFrame": 714
+    },
+    {
+      "text": "rules",
+      "start_ms": 23797.4,
+      "end_ms": 24221.4,
+      "startFrame": 714,
+      "endFrame": 727
+    },
+    {
+      "text": "and",
+      "start_ms": 24421.0,
+      "end_ms": 24495.8,
+      "startFrame": 733,
+      "endFrame": 735
+    },
+    {
+      "text": "motion",
+      "start_ms": 24528.2,
+      "end_ms": 25049.6,
+      "startFrame": 736,
+      "endFrame": 751
+    },
+    {
+      "text": "guidelines",
+      "start_ms": 25064.5,
+      "end_ms": 25668.2,
+      "startFrame": 752,
+      "endFrame": 770
+    },
+    {
+      "text": "straight",
+      "start_ms": 25795.4,
+      "end_ms": 26189.5,
+      "startFrame": 774,
+      "endFrame": 786
+    },
+    {
+      "text": "into",
+      "start_ms": 26256.8,
+      "end_ms": 26406.5,
+      "startFrame": 788,
+      "endFrame": 792
+    },
+    {
+      "text": "Claude",
+      "start_ms": 26431.4,
+      "end_ms": 26725.8,
+      "startFrame": 793,
+      "endFrame": 802
+    },
+    {
+      "text": "Code",
+      "start_ms": 26725.8,
+      "end_ms": 27114.9,
+      "startFrame": 802,
+      "endFrame": 813
+    },
+    {
+      "text": "so",
+      "start_ms": 27242.9,
+      "end_ms": 27317.7,
+      "startFrame": 817,
+      "endFrame": 820
+    },
+    {
+      "text": "every",
+      "start_ms": 27327.7,
+      "end_ms": 27706.8,
+      "startFrame": 820,
+      "endFrame": 831
+    },
+    {
+      "text": "landing",
+      "start_ms": 27706.8,
+      "end_ms": 28046.1,
+      "startFrame": 831,
+      "endFrame": 841
+    },
+    {
+      "text": "page",
+      "start_ms": 28046.1,
+      "end_ms": 28410.2,
+      "startFrame": 841,
+      "endFrame": 852
+    },
+    {
+      "text": "and",
+      "start_ms": 28420.2,
+      "end_ms": 28480.1,
+      "startFrame": 853,
+      "endFrame": 854
+    },
+    {
+      "text": "dashboard",
+      "start_ms": 28490.1,
+      "end_ms": 29028.8,
+      "startFrame": 855,
+      "endFrame": 871
+    },
+    {
+      "text": "looks",
+      "start_ms": 29028.8,
+      "end_ms": 29353.1,
+      "startFrame": 871,
+      "endFrame": 881
+    },
+    {
+      "text": "custom",
+      "start_ms": 29363.1,
+      "end_ms": 29824.5,
+      "startFrame": 881,
+      "endFrame": 895
+    },
+    {
+      "text": "built",
+      "start_ms": 29847.0,
+      "end_ms": 30333.4,
+      "startFrame": 895,
+      "endFrame": 910
+    },
+    {
+      "text": "Second",
+      "start_ms": 30546.8,
+      "end_ms": 31070.3,
+      "startFrame": 916,
+      "endFrame": 932
+    },
+    {
+      "text": "webapp-testing",
+      "start_ms": 31160.6,
+      "end_ms": 32081.3,
+      "startFrame": 935,
+      "endFrame": 962
+    },
+    {
+      "text": "Instead",
+      "start_ms": 32212.2,
+      "end_ms": 32376.8,
+      "startFrame": 966,
+      "endFrame": 971
+    },
+    {
+      "text": "of",
+      "start_ms": 32376.8,
+      "end_ms": 32499.0,
+      "startFrame": 971,
+      "endFrame": 975
+    },
+    {
+      "text": "guessing",
+      "start_ms": 32526.5,
+      "end_ms": 33010.4,
+      "startFrame": 976,
+      "endFrame": 990
+    },
+    {
+      "text": "whether",
+      "start_ms": 33010.4,
+      "end_ms": 33319.7,
+      "startFrame": 990,
+      "endFrame": 1000
+    },
+    {
+      "text": "your",
+      "start_ms": 33329.7,
+      "end_ms": 33514.2,
+      "startFrame": 1000,
+      "endFrame": 1005
+    },
+    {
+      "text": "UI",
+      "start_ms": 33524.2,
+      "end_ms": 33913.3,
+      "startFrame": 1006,
+      "endFrame": 1017
+    },
+    {
+      "text": "actually",
+      "start_ms": 33918.3,
+      "end_ms": 34457.1,
+      "startFrame": 1018,
+      "endFrame": 1034
+    },
+    {
+      "text": "works",
+      "start_ms": 34477.1,
+      "end_ms": 35090.7,
+      "startFrame": 1034,
+      "endFrame": 1053
+    },
+    {
+      "text": "this",
+      "start_ms": 35218.2,
+      "end_ms": 35298.0,
+      "startFrame": 1057,
+      "endFrame": 1059
+    },
+    {
+      "text": "skill",
+      "start_ms": 35298.0,
+      "end_ms": 35692.1,
+      "startFrame": 1059,
+      "endFrame": 1071
+    },
+    {
+      "text": "spins",
+      "start_ms": 35702.1,
+      "end_ms": 36118.7,
+      "startFrame": 1071,
+      "endFrame": 1084
+    },
+    {
+      "text": "up",
+      "start_ms": 36118.7,
+      "end_ms": 36255.8,
+      "startFrame": 1084,
+      "endFrame": 1088
+    },
+    {
+      "text": "Playwright",
+      "start_ms": 36285.8,
+      "end_ms": 36824.5,
+      "startFrame": 1089,
+      "endFrame": 1105
+    },
+    {
+      "text": "in",
+      "start_ms": 36824.5,
+      "end_ms": 36884.4,
+      "startFrame": 1105,
+      "endFrame": 1107
+    },
+    {
+      "text": "a",
+      "start_ms": 36884.4,
+      "end_ms": 36946.8,
+      "startFrame": 1107,
+      "endFrame": 1108
+    },
+    {
+      "text": "live",
+      "start_ms": 36946.8,
+      "end_ms": 37338.4,
+      "startFrame": 1108,
+      "endFrame": 1120
+    },
+    {
+      "text": "browser",
+      "start_ms": 37338.4,
+      "end_ms": 37939.5,
+      "startFrame": 1120,
+      "endFrame": 1138
+    },
+    {
+      "text": "clicks",
+      "start_ms": 38066.1,
+      "end_ms": 38195.8,
+      "startFrame": 1142,
+      "endFrame": 1146
+    },
+    {
+      "text": "through",
+      "start_ms": 38195.8,
+      "end_ms": 38360.4,
+      "startFrame": 1146,
+      "endFrame": 1151
+    },
+    {
+      "text": "your",
+      "start_ms": 38360.4,
+      "end_ms": 38505.1,
+      "startFrame": 1151,
+      "endFrame": 1155
+    },
+    {
+      "text": "flows",
+      "start_ms": 38505.1,
+      "end_ms": 39078.8,
+      "startFrame": 1155,
+      "endFrame": 1172
+    },
+    {
+      "text": "captures",
+      "start_ms": 39266.7,
+      "end_ms": 39491.2,
+      "startFrame": 1178,
+      "endFrame": 1185
+    },
+    {
+      "text": "screenshots",
+      "start_ms": 39501.2,
+      "end_ms": 40179.6,
+      "startFrame": 1185,
+      "endFrame": 1205
+    },
+    {
+      "text": "and",
+      "start_ms": 40369.2,
+      "end_ms": 40508.9,
+      "startFrame": 1211,
+      "endFrame": 1215
+    },
+    {
+      "text": "catches",
+      "start_ms": 40508.9,
+      "end_ms": 40927.9,
+      "startFrame": 1215,
+      "endFrame": 1228
+    },
+    {
+      "text": "console",
+      "start_ms": 40927.9,
+      "end_ms": 41421.8,
+      "startFrame": 1228,
+      "endFrame": 1243
+    },
+    {
+      "text": "errors",
+      "start_ms": 41421.8,
+      "end_ms": 41758.5,
+      "startFrame": 1243,
+      "endFrame": 1253
+    },
+    {
+      "text": "before",
+      "start_ms": 41758.5,
+      "end_ms": 42314.8,
+      "startFrame": 1253,
+      "endFrame": 1269
+    },
+    {
+      "text": "you",
+      "start_ms": 42314.8,
+      "end_ms": 42384.6,
+      "startFrame": 1269,
+      "endFrame": 1272
+    },
+    {
+      "text": "ship",
+      "start_ms": 42384.6,
+      "end_ms": 42900.9,
+      "startFrame": 1272,
+      "endFrame": 1287
+    },
+    {
+      "text": "Third",
+      "start_ms": 43107.7,
+      "end_ms": 43572.6,
+      "startFrame": 1293,
+      "endFrame": 1307
+    },
+    {
+      "text": "mcp-builder",
+      "start_ms": 43667.3,
+      "end_ms": 44764.1,
+      "startFrame": 1310,
+      "endFrame": 1343
+    },
+    {
+      "text": "When",
+      "start_ms": 44895.0,
+      "end_ms": 44925.0,
+      "startFrame": 1347,
+      "endFrame": 1348
+    },
+    {
+      "text": "you",
+      "start_ms": 44924.9,
+      "end_ms": 44954.9,
+      "startFrame": 1348,
+      "endFrame": 1349
+    },
+    {
+      "text": "want",
+      "start_ms": 44929.9,
+      "end_ms": 45122.0,
+      "startFrame": 1348,
+      "endFrame": 1354
+    },
+    {
+      "text": "Claude",
+      "start_ms": 45122.0,
+      "end_ms": 45588.4,
+      "startFrame": 1354,
+      "endFrame": 1368
+    },
+    {
+      "text": "talking",
+      "start_ms": 45588.4,
+      "end_ms": 45992.5,
+      "startFrame": 1368,
+      "endFrame": 1380
+    },
+    {
+      "text": "to",
+      "start_ms": 45992.5,
+      "end_ms": 46102.3,
+      "startFrame": 1380,
+      "endFrame": 1383
+    },
+    {
+      "text": "real",
+      "start_ms": 46102.3,
+      "end_ms": 46446.5,
+      "startFrame": 1383,
+      "endFrame": 1393
+    },
+    {
+      "text": "databases",
+      "start_ms": 46461.4,
+      "end_ms": 47184.8,
+      "startFrame": 1394,
+      "endFrame": 1416
+    },
+    {
+      "text": "or",
+      "start_ms": 47184.8,
+      "end_ms": 47374.4,
+      "startFrame": 1416,
+      "endFrame": 1421
+    },
+    {
+      "text": "APIs",
+      "start_ms": 47399.3,
+      "end_ms": 48187.5,
+      "startFrame": 1422,
+      "endFrame": 1446
+    },
+    {
+      "text": "this",
+      "start_ms": 48334.2,
+      "end_ms": 48374.1,
+      "startFrame": 1450,
+      "endFrame": 1451
+    },
+    {
+      "text": "skill",
+      "start_ms": 48384.1,
+      "end_ms": 48703.4,
+      "startFrame": 1452,
+      "endFrame": 1461
+    },
+    {
+      "text": "guides",
+      "start_ms": 48713.3,
+      "end_ms": 49149.8,
+      "startFrame": 1461,
+      "endFrame": 1474
+    },
+    {
+      "text": "Claude",
+      "start_ms": 49149.8,
+      "end_ms": 49511.5,
+      "startFrame": 1474,
+      "endFrame": 1485
+    },
+    {
+      "text": "step",
+      "start_ms": 49511.5,
+      "end_ms": 49860.7,
+      "startFrame": 1485,
+      "endFrame": 1496
+    },
+    {
+      "text": "by",
+      "start_ms": 49875.7,
+      "end_ms": 50040.3,
+      "startFrame": 1496,
+      "endFrame": 1501
+    },
+    {
+      "text": "step",
+      "start_ms": 50040.3,
+      "end_ms": 50399.5,
+      "startFrame": 1501,
+      "endFrame": 1512
+    },
+    {
+      "text": "to",
+      "start_ms": 50574.1,
+      "end_ms": 50624.0,
+      "startFrame": 1517,
+      "endFrame": 1519
+    },
+    {
+      "text": "scaffold",
+      "start_ms": 50634.0,
+      "end_ms": 51187.7,
+      "startFrame": 1519,
+      "endFrame": 1536
+    },
+    {
+      "text": "clean",
+      "start_ms": 51212.7,
+      "end_ms": 51519.5,
+      "startFrame": 1536,
+      "endFrame": 1546
+    },
+    {
+      "text": "TypeScript",
+      "start_ms": 51519.5,
+      "end_ms": 52230.3,
+      "startFrame": 1546,
+      "endFrame": 1567
+    },
+    {
+      "text": "or",
+      "start_ms": 52315.2,
+      "end_ms": 52424.9,
+      "startFrame": 1569,
+      "endFrame": 1573
+    },
+    {
+      "text": "Python",
+      "start_ms": 52424.9,
+      "end_ms": 52868.9,
+      "startFrame": 1573,
+      "endFrame": 1586
+    },
+    {
+      "text": "MCP",
+      "start_ms": 52878.9,
+      "end_ms": 53437.6,
+      "startFrame": 1586,
+      "endFrame": 1603
+    },
+    {
+      "text": "servers",
+      "start_ms": 53437.6,
+      "end_ms": 53919.0,
+      "startFrame": 1603,
+      "endFrame": 1618
+    },
+    {
+      "text": "without",
+      "start_ms": 54161.0,
+      "end_ms": 54430.4,
+      "startFrame": 1625,
+      "endFrame": 1633
+    },
+    {
+      "text": "broken",
+      "start_ms": 54440.4,
+      "end_ms": 54789.6,
+      "startFrame": 1633,
+      "endFrame": 1644
+    },
+    {
+      "text": "schemas",
+      "start_ms": 54799.5,
+      "end_ms": 55368.3,
+      "startFrame": 1644,
+      "endFrame": 1661
+    },
+    {
+      "text": "Best",
+      "start_ms": 55664.0,
+      "end_ms": 55993.3,
+      "startFrame": 1670,
+      "endFrame": 1680
+    },
+    {
+      "text": "part",
+      "start_ms": 55993.3,
+      "end_ms": 56182.8,
+      "startFrame": 1680,
+      "endFrame": 1685
+    },
+    {
+      "text": "run",
+      "start_ms": 56277.8,
+      "end_ms": 56400.0,
+      "startFrame": 1688,
+      "endFrame": 1692
+    },
+    {
+      "text": "npx",
+      "start_ms": 56482.3,
+      "end_ms": 57046.1,
+      "startFrame": 1694,
+      "endFrame": 1711
+    },
+    {
+      "text": "skills",
+      "start_ms": 57046.1,
+      "end_ms": 57477.6,
+      "startFrame": 1711,
+      "endFrame": 1724
+    },
+    {
+      "text": "add",
+      "start_ms": 57477.6,
+      "end_ms": 57734.5,
+      "startFrame": 1724,
+      "endFrame": 1732
+    },
+    {
+      "text": "anthropics",
+      "start_ms": 57744.5,
+      "end_ms": 58353.1,
+      "startFrame": 1732,
+      "endFrame": 1751
+    },
+    {
+      "text": "skills",
+      "start_ms": 58363.1,
+      "end_ms": 59320.9,
+      "startFrame": 1751,
+      "endFrame": 1780
+    },
+    {
+      "text": "in",
+      "start_ms": 59320.9,
+      "end_ms": 59425.6,
+      "startFrame": 1780,
+      "endFrame": 1783
+    },
+    {
+      "text": "your",
+      "start_ms": 59435.6,
+      "end_ms": 59560.3,
+      "startFrame": 1783,
+      "endFrame": 1787
+    },
+    {
+      "text": "terminal",
+      "start_ms": 59570.3,
+      "end_ms": 60039.3,
+      "startFrame": 1787,
+      "endFrame": 1801
+    },
+    {
+      "text": "to",
+      "start_ms": 60193.9,
+      "end_ms": 60258.8,
+      "startFrame": 1806,
+      "endFrame": 1808
+    },
+    {
+      "text": "pull",
+      "start_ms": 60258.8,
+      "end_ms": 60513.2,
+      "startFrame": 1808,
+      "endFrame": 1815
+    },
+    {
+      "text": "all",
+      "start_ms": 60612.9,
+      "end_ms": 60732.7,
+      "startFrame": 1818,
+      "endFrame": 1822
+    },
+    {
+      "text": "three",
+      "start_ms": 60732.7,
+      "end_ms": 61121.8,
+      "startFrame": 1822,
+      "endFrame": 1834
+    },
+    {
+      "text": "in",
+      "start_ms": 61131.8,
+      "end_ms": 61286.4,
+      "startFrame": 1834,
+      "endFrame": 1839
+    },
+    {
+      "text": "seconds",
+      "start_ms": 61286.4,
+      "end_ms": 62179.4,
+      "startFrame": 1839,
+      "endFrame": 1865
+    },
+    {
+      "text": "Comment",
+      "start_ms": 62497.3,
+      "end_ms": 62686.9,
+      "startFrame": 1875,
+      "endFrame": 1881
+    },
+    {
+      "text": "SKILLS",
+      "start_ms": 62704.3,
+      "end_ms": 63270.5,
+      "startFrame": 1881,
+      "endFrame": 1898
+    },
+    {
+      "text": "below",
+      "start_ms": 63270.5,
+      "end_ms": 63866.7,
+      "startFrame": 1898,
+      "endFrame": 1916
+    },
+    {
+      "text": "and",
+      "start_ms": 64031.9,
+      "end_ms": 64081.8,
+      "startFrame": 1921,
+      "endFrame": 1922
+    },
+    {
+      "text": "I",
+      "start_ms": 64081.8,
+      "end_ms": 64111.8,
+      "startFrame": 1922,
+      "endFrame": 1923
+    },
+    {
+      "text": "will",
+      "start_ms": 64081.8,
+      "end_ms": 64226.5,
+      "startFrame": 1922,
+      "endFrame": 1927
+    },
+    {
+      "text": "send",
+      "start_ms": 64226.5,
+      "end_ms": 64436.0,
+      "startFrame": 1927,
+      "endFrame": 1933
+    },
+    {
+      "text": "you",
+      "start_ms": 64436.0,
+      "end_ms": 64525.8,
+      "startFrame": 1933,
+      "endFrame": 1936
+    },
+    {
+      "text": "my",
+      "start_ms": 64525.8,
+      "end_ms": 64735.3,
+      "startFrame": 1936,
+      "endFrame": 1942
+    },
+    {
+      "text": "complete",
+      "start_ms": 64735.3,
+      "end_ms": 65264.1,
+      "startFrame": 1942,
+      "endFrame": 1958
+    },
+    {
+      "text": "Claude",
+      "start_ms": 65269.1,
+      "end_ms": 65708.1,
+      "startFrame": 1958,
+      "endFrame": 1971
+    },
+    {
+      "text": "Code",
+      "start_ms": 65708.1,
+      "end_ms": 65989.9,
+      "startFrame": 1971,
+      "endFrame": 1980
+    },
+    {
+      "text": "Skills",
+      "start_ms": 65989.9,
+      "end_ms": 66406.5,
+      "startFrame": 1980,
+      "endFrame": 1992
+    },
+    {
+      "text": "Pack",
+      "start_ms": 66406.5,
+      "end_ms": 66848.0,
+      "startFrame": 1992,
+      "endFrame": 2005
+    },
+    {
+      "text": "Follow",
+      "start_ms": 67060.4,
+      "end_ms": 67259.9,
+      "startFrame": 2012,
+      "endFrame": 2018
+    },
+    {
+      "text": "for",
+      "start_ms": 67269.9,
+      "end_ms": 67464.5,
+      "startFrame": 2018,
+      "endFrame": 2024
+    },
+    {
+      "text": "more",
+      "start_ms": 67464.5,
+      "end_ms": 67848.6,
+      "startFrame": 2024,
+      "endFrame": 2035
+    },
+    {
+      "text": "AI",
+      "start_ms": 67898.5,
+      "end_ms": 68217.8,
+      "startFrame": 2037,
+      "endFrame": 2047
+    },
+    {
+      "text": "workflows",
+      "start_ms": 68217.8,
+      "end_ms": 69075.8,
+      "startFrame": 2047,
+      "endFrame": 2072
+    }
+  ]
+}

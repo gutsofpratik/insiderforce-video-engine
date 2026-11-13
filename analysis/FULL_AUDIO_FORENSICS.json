@@ -1,0 +1,14 @@
+{
+  "videos_analyzed": 87,
+  "median_overall_rms_db": -15.4,
+  "median_voice_peak_db": -12.6,
+  "median_music_floor_db": -25.0,
+  "median_voice_music_gap_db": 11.6,
+  "median_music_sub_20_90hz_db": -30.9,
+  "median_music_warm_90_280hz_db": -31.5,
+  "median_music_pad_280_1200hz_db": -31.6,
+  "median_music_hi_2k_10khz_db": -31.5,
+  "median_sub_hits_per_min": 32.8,
+  "median_clicks_per_min": 39.8,
+  "median_whooshes_per_min": 80.1
+}

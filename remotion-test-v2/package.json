@@ -1,0 +1,24 @@
+{
+  "name": "remotion-test-v2",
+  "version": "1.0.0",
+  "description": "InsiderForce V2 production quality verification Short",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "remotion render src/index.ts ClaudeMcpShort out/insiderforce_mcp_v3.mp4",
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.543",
+    "@remotion/google-fonts": "^4.0.543",
+    "@remotion/media": "^4.0.543",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "isomorphic-git": "^1.44.13",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.543",
+    "typescript": "^7.0.2"
+  }
+}

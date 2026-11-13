@@ -1,0 +1,487 @@
+{
+  "voice": "en-US-AndrewMultilingualNeural",
+  "rate": "+12%",
+  "fps": 30,
+  "duration_sec": 24.211,
+  "total_frames": 726,
+  "word_count": 68,
+  "actual_wpm": 168.5,
+  "words": [
+    {
+      "text": "Most",
+      "start_ms": 0.0,
+      "end_ms": 166.7,
+      "startFrame": 0,
+      "endFrame": 5
+    },
+    {
+      "text": "developers",
+      "start_ms": 166.7,
+      "end_ms": 624.3,
+      "startFrame": 5,
+      "endFrame": 19
+    },
+    {
+      "text": "still",
+      "start_ms": 624.3,
+      "end_ms": 880.9,
+      "startFrame": 19,
+      "endFrame": 26
+    },
+    {
+      "text": "copy",
+      "start_ms": 880.9,
+      "end_ms": 1427.8,
+      "startFrame": 26,
+      "endFrame": 43
+    },
+    {
+      "text": "and",
+      "start_ms": 1572.9,
+      "end_ms": 1718.0,
+      "startFrame": 47,
+      "endFrame": 52
+    },
+    {
+      "text": "paste",
+      "start_ms": 1729.2,
+      "end_ms": 2119.8,
+      "startFrame": 52,
+      "endFrame": 64
+    },
+    {
+      "text": "code",
+      "start_ms": 2130.9,
+      "end_ms": 2476.9,
+      "startFrame": 64,
+      "endFrame": 74
+    },
+    {
+      "text": "into",
+      "start_ms": 2488.1,
+      "end_ms": 2588.5,
+      "startFrame": 75,
+      "endFrame": 78
+    },
+    {
+      "text": "Claude",
+      "start_ms": 2588.6,
+      "end_ms": 2878.7,
+      "startFrame": 78,
+      "endFrame": 86
+    },
+    {
+      "text": "Code",
+      "start_ms": 2878.7,
+      "end_ms": 3224.7,
+      "startFrame": 86,
+      "endFrame": 97
+    },
+    {
+      "text": "Now",
+      "start_ms": 3581.8,
+      "end_ms": 3782.7,
+      "startFrame": 107,
+      "endFrame": 113
+    },
+    {
+      "text": "instead",
+      "start_ms": 3782.7,
+      "end_ms": 4039.4,
+      "startFrame": 113,
+      "endFrame": 121
+    },
+    {
+      "text": "of",
+      "start_ms": 4039.4,
+      "end_ms": 4106.4,
+      "startFrame": 121,
+      "endFrame": 123
+    },
+    {
+      "text": "switching",
+      "start_ms": 4106.4,
+      "end_ms": 4519.3,
+      "startFrame": 123,
+      "endFrame": 136
+    },
+    {
+      "text": "twenty",
+      "start_ms": 4530.5,
+      "end_ms": 4787.2,
+      "startFrame": 136,
+      "endFrame": 144
+    },
+    {
+      "text": "tabs",
+      "start_ms": 4787.2,
+      "end_ms": 5099.7,
+      "startFrame": 144,
+      "endFrame": 153
+    },
+    {
+      "text": "by",
+      "start_ms": 5110.8,
+      "end_ms": 5244.8,
+      "startFrame": 153,
+      "endFrame": 157
+    },
+    {
+      "text": "hand",
+      "start_ms": 5244.8,
+      "end_ms": 5657.8,
+      "startFrame": 157,
+      "endFrame": 170
+    },
+    {
+      "text": "you",
+      "start_ms": 5903.3,
+      "end_ms": 5959.0,
+      "startFrame": 177,
+      "endFrame": 179
+    },
+    {
+      "text": "can",
+      "start_ms": 5959.0,
+      "end_ms": 6059.5,
+      "startFrame": 179,
+      "endFrame": 182
+    },
+    {
+      "text": "connect",
+      "start_ms": 6070.7,
+      "end_ms": 6349.7,
+      "startFrame": 182,
+      "endFrame": 190
+    },
+    {
+      "text": "Claude",
+      "start_ms": 6349.7,
+      "end_ms": 6651.0,
+      "startFrame": 190,
+      "endFrame": 200
+    },
+    {
+      "text": "directly",
+      "start_ms": 6662.2,
+      "end_ms": 7075.1,
+      "startFrame": 200,
+      "endFrame": 212
+    },
+    {
+      "text": "to",
+      "start_ms": 7086.3,
+      "end_ms": 7186.8,
+      "startFrame": 213,
+      "endFrame": 216
+    },
+    {
+      "text": "GitHub",
+      "start_ms": 7197.9,
+      "end_ms": 7677.8,
+      "startFrame": 216,
+      "endFrame": 230
+    },
+    {
+      "text": "Supabase",
+      "start_ms": 7912.2,
+      "end_ms": 8659.9,
+      "startFrame": 237,
+      "endFrame": 260
+    },
+    {
+      "text": "and",
+      "start_ms": 8872.0,
+      "end_ms": 8983.6,
+      "startFrame": 266,
+      "endFrame": 270
+    },
+    {
+      "text": "Vercel",
+      "start_ms": 8983.6,
+      "end_ms": 9441.2,
+      "startFrame": 270,
+      "endFrame": 283
+    },
+    {
+      "text": "with",
+      "start_ms": 9441.2,
+      "end_ms": 9552.8,
+      "startFrame": 283,
+      "endFrame": 287
+    },
+    {
+      "text": "one",
+      "start_ms": 9564.0,
+      "end_ms": 9753.7,
+      "startFrame": 287,
+      "endFrame": 293
+    },
+    {
+      "text": "command",
+      "start_ms": 9764.9,
+      "end_ms": 10200.1,
+      "startFrame": 293,
+      "endFrame": 306
+    },
+    {
+      "text": "It",
+      "start_ms": 10557.3,
+      "end_ms": 10624.3,
+      "startFrame": 317,
+      "endFrame": 319
+    },
+    {
+      "text": "pulls",
+      "start_ms": 10624.3,
+      "end_ms": 10925.6,
+      "startFrame": 319,
+      "endFrame": 328
+    },
+    {
+      "text": "live",
+      "start_ms": 10925.6,
+      "end_ms": 11338.5,
+      "startFrame": 328,
+      "endFrame": 340
+    },
+    {
+      "text": "issues",
+      "start_ms": 11461.3,
+      "end_ms": 12064.0,
+      "startFrame": 344,
+      "endFrame": 362
+    },
+    {
+      "text": "updates",
+      "start_ms": 12209.0,
+      "end_ms": 12566.2,
+      "startFrame": 366,
+      "endFrame": 377
+    },
+    {
+      "text": "your",
+      "start_ms": 12577.4,
+      "end_ms": 12655.5,
+      "startFrame": 377,
+      "endFrame": 380
+    },
+    {
+      "text": "database",
+      "start_ms": 12655.5,
+      "end_ms": 13302.8,
+      "startFrame": 380,
+      "endFrame": 399
+    },
+    {
+      "text": "and",
+      "start_ms": 13503.7,
+      "end_ms": 13626.5,
+      "startFrame": 405,
+      "endFrame": 409
+    },
+    {
+      "text": "ships",
+      "start_ms": 13626.5,
+      "end_ms": 13961.3,
+      "startFrame": 409,
+      "endFrame": 419
+    },
+    {
+      "text": "straight",
+      "start_ms": 13961.3,
+      "end_ms": 14363.1,
+      "startFrame": 419,
+      "endFrame": 431
+    },
+    {
+      "text": "to",
+      "start_ms": 14407.7,
+      "end_ms": 14497.0,
+      "startFrame": 432,
+      "endFrame": 435
+    },
+    {
+      "text": "production",
+      "start_ms": 14497.0,
+      "end_ms": 14965.8,
+      "startFrame": 435,
+      "endFrame": 449
+    },
+    {
+      "text": "automatically",
+      "start_ms": 15055.0,
+      "end_ms": 15668.9,
+      "startFrame": 452,
+      "endFrame": 470
+    },
+    {
+      "text": "Zero",
+      "start_ms": 16026.0,
+      "end_ms": 16349.7,
+      "startFrame": 481,
+      "endFrame": 490
+    },
+    {
+      "text": "glue",
+      "start_ms": 16360.8,
+      "end_ms": 16639.8,
+      "startFrame": 491,
+      "endFrame": 499
+    },
+    {
+      "text": "code",
+      "start_ms": 16651.0,
+      "end_ms": 16997.0,
+      "startFrame": 500,
+      "endFrame": 510
+    },
+    {
+      "text": "Zero",
+      "start_ms": 17365.3,
+      "end_ms": 17767.1,
+      "startFrame": 521,
+      "endFrame": 533
+    },
+    {
+      "text": "manual",
+      "start_ms": 17878.7,
+      "end_ms": 18314.0,
+      "startFrame": 536,
+      "endFrame": 549
+    },
+    {
+      "text": "setup",
+      "start_ms": 18325.1,
+      "end_ms": 18715.8,
+      "startFrame": 550,
+      "endFrame": 561
+    },
+    {
+      "text": "Comment",
+      "start_ms": 19084.0,
+      "end_ms": 19340.8,
+      "startFrame": 573,
+      "endFrame": 580
+    },
+    {
+      "text": "M",
+      "start_ms": 19340.8,
+      "end_ms": 19430.0,
+      "startFrame": 580,
+      "endFrame": 583
+    },
+    {
+      "text": "C",
+      "start_ms": 19430.0,
+      "end_ms": 19642.1,
+      "startFrame": 583,
+      "endFrame": 589
+    },
+    {
+      "text": "P",
+      "start_ms": 19653.3,
+      "end_ms": 20010.4,
+      "startFrame": 590,
+      "endFrame": 600
+    },
+    {
+      "text": "and",
+      "start_ms": 20088.6,
+      "end_ms": 20267.1,
+      "startFrame": 603,
+      "endFrame": 608
+    },
+    {
+      "text": "I",
+      "start_ms": 20334.0,
+      "end_ms": 20401.0,
+      "startFrame": 610,
+      "endFrame": 612
+    },
+    {
+      "text": "will",
+      "start_ms": 20401.0,
+      "end_ms": 20512.6,
+      "startFrame": 612,
+      "endFrame": 615
+    },
+    {
+      "text": "send",
+      "start_ms": 20512.6,
+      "end_ms": 20769.3,
+      "startFrame": 615,
+      "endFrame": 623
+    },
+    {
+      "text": "you",
+      "start_ms": 20780.5,
+      "end_ms": 20869.8,
+      "startFrame": 623,
+      "endFrame": 626
+    },
+    {
+      "text": "the",
+      "start_ms": 20880.9,
+      "end_ms": 20936.7,
+      "startFrame": 626,
+      "endFrame": 628
+    },
+    {
+      "text": "exact",
+      "start_ms": 20936.8,
+      "end_ms": 21293.9,
+      "startFrame": 628,
+      "endFrame": 639
+    },
+    {
+      "text": "setup",
+      "start_ms": 21293.9,
+      "end_ms": 21584.0,
+      "startFrame": 639,
+      "endFrame": 648
+    },
+    {
+      "text": "guide",
+      "start_ms": 21595.2,
+      "end_ms": 21918.9,
+      "startFrame": 648,
+      "endFrame": 658
+    },
+    {
+      "text": "Make",
+      "start_ms": 22276.0,
+      "end_ms": 22387.7,
+      "startFrame": 668,
+      "endFrame": 672
+    },
+    {
+      "text": "sure",
+      "start_ms": 22398.8,
+      "end_ms": 22588.6,
+      "startFrame": 672,
+      "endFrame": 678
+    },
+    {
+      "text": "you",
+      "start_ms": 22588.6,
+      "end_ms": 22700.2,
+      "startFrame": 678,
+      "endFrame": 681
+    },
+    {
+      "text": "follow",
+      "start_ms": 22711.3,
+      "end_ms": 23035.0,
+      "startFrame": 681,
+      "endFrame": 691
+    },
+    {
+      "text": "InsiderForce",
+      "start_ms": 23035.0,
+      "end_ms": 23872.0,
+      "startFrame": 691,
+      "endFrame": 716
+    }
+  ]
+}

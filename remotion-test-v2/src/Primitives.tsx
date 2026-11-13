@@ -334,6 +334,9 @@ export interface KineticWord {
   size?: number;
   underline?: boolean;
   highlightPill?: boolean;
+  highlightSweep?: boolean;
+  highlightSweepColor?: string;
+  highlightSweepTextColor?: string;
   lineBreakAfter?: boolean;
 }
 
@@ -414,7 +417,7 @@ export const KineticWordFlow: React.FC<{
             const fw = weightMap[w.weight ?? 'medium'];
             const letterEm = sz >= 64 ? -0.042 : -0.030;
             const rawWidth = measureWordPx(w.text, fw, Boolean(w.italic), sz, letterEm);
-            const pillExtra = w.highlightPill ? 28 : 0;
+            const pillExtra = w.highlightPill || w.highlightSweep ? 28 : 0;
             const gapRight = wi < line.length - 1 ? sz * 0.30 : 0;
 
             // Smooth 5-frame slot expansion leads opacity by 1.5f; flex-start prevents left-edge overlap
@@ -469,6 +472,14 @@ export const KineticWordFlow: React.FC<{
                 })
               : 0;
 
+            const sweepProgress = w.highlightSweep
+              ? interpolate(local, [0, 8], [0, 1], {
+                  extrapolateLeft: 'clamp',
+                  extrapolateRight: 'clamp',
+                  easing: Easing.out(Easing.cubic),
+                })
+              : 0;
+
             const outerWidth = (rawWidth + pillExtra + 2) * slotEase;
             const marginR = gapRight * slotEase;
 
@@ -497,8 +508,8 @@ export const KineticWordFlow: React.FC<{
                     lineHeight: 1.12,
                     color: `rgb(${r}, ${g}, ${b})`,
                     backgroundColor: w.highlightPill ? '#141416' : undefined,
-                    padding: w.highlightPill ? '4px 14px 6px 14px' : undefined,
-                    borderRadius: w.highlightPill ? 14 : undefined,
+                    padding: w.highlightPill || w.highlightSweep ? '4px 14px 6px 14px' : undefined,
+                    borderRadius: w.highlightPill || w.highlightSweep ? 14 : undefined,
                     boxShadow: w.highlightPill ? '0 8px 20px rgba(16,18,28,0.16)' : undefined,
                     opacity,
                     filter: blurY > 0.25 ? `blur(${blurY.toFixed(2)}px)` : undefined,
@@ -506,6 +517,41 @@ export const KineticWordFlow: React.FC<{
                   }}
                 >
                   {w.text}
+                  {w.highlightSweep ? (
+                    <span
+                      style={{
+                        position: 'absolute',
+                        left: 0,
+                        right: 0,
+                        top: 0,
+                        bottom: 0,
+                        borderRadius: 14,
+                        backgroundColor: w.highlightSweepColor ?? '#141416',
+                        clipPath: `inset(0 ${(1 - sweepProgress) * 100}% 0 0 round 14px)`,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        pointerEvents: 'none',
+                        zIndex: 3,
+                        boxShadow: '0 8px 24px rgba(16,18,28,0.20)',
+                      }}
+                    >
+                      <span
+                        style={{
+                          fontFamily: w.italic ? INTER_ITALIC_FONT : INTER_FONT,
+                          fontStyle: w.italic ? 'italic' : 'normal',
+                          fontWeight: fw,
+                          fontSize: sz,
+                          letterSpacing: `${letterEm}em`,
+                          lineHeight: 1.12,
+                          color: w.highlightSweepTextColor ?? '#FFFFFF',
+                          whiteSpace: 'nowrap',
+                        }}
+                      >
+                        {w.text}
+                      </span>
+                    </span>
+                  ) : null}
                   {w.underline ? (
                     <svg
                       viewBox="0 0 200 18"

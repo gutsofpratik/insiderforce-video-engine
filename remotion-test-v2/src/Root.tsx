@@ -6,10 +6,25 @@ import {
   TOP3_CLAUDE_SKILLS_DEFAULT_PROPS,
   top3ClaudeSkillsSchema,
 } from './top3SkillsTextLayer';
+import { KraftoMcpShort } from './KraftoMcpShort';
+import {
+  KRAFTO_MCP_DEFAULT_PROPS,
+  kraftoMcpShortSchema,
+} from './kraftoTextLayer';
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="KraftoMcpShort"
+        component={KraftoMcpShort}
+        schema={kraftoMcpShortSchema}
+        defaultProps={KRAFTO_MCP_DEFAULT_PROPS}
+        durationInFrames={1980}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="Top3ClaudeSkillsShort"
         component={Top3ClaudeSkillsShort}

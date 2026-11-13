@@ -1,0 +1,1124 @@
+{
+  "voice": "ElevenLabs User Narration (1.115x Broadcast Mastered)",
+  "rate": "1.115x",
+  "fps": 30,
+  "duration_sec": 64.241,
+  "total_frames": 1980,
+  "word_count": 159,
+  "actual_wpm": 148.5,
+  "words": [
+    {
+      "text": "Most",
+      "start_ms": 0.0,
+      "end_ms": 259.4,
+      "startFrame": 0,
+      "endFrame": 8
+    },
+    {
+      "text": "developers",
+      "start_ms": 284.4,
+      "end_ms": 828.1,
+      "startFrame": 9,
+      "endFrame": 25
+    },
+    {
+      "text": "and",
+      "start_ms": 843.1,
+      "end_ms": 947.8,
+      "startFrame": 25,
+      "endFrame": 28
+    },
+    {
+      "text": "designers",
+      "start_ms": 965.3,
+      "end_ms": 1531.5,
+      "startFrame": 29,
+      "endFrame": 46
+    },
+    {
+      "text": "still",
+      "start_ms": 1541.5,
+      "end_ms": 1935.6,
+      "startFrame": 46,
+      "endFrame": 58
+    },
+    {
+      "text": "waste",
+      "start_ms": 1950.6,
+      "end_ms": 2389.6,
+      "startFrame": 59,
+      "endFrame": 72
+    },
+    {
+      "text": "hours",
+      "start_ms": 2414.5,
+      "end_ms": 2818.6,
+      "startFrame": 72,
+      "endFrame": 85
+    },
+    {
+      "text": "hunting",
+      "start_ms": 2846.0,
+      "end_ms": 3222.7,
+      "startFrame": 85,
+      "endFrame": 97
+    },
+    {
+      "text": "for",
+      "start_ms": 3257.6,
+      "end_ms": 3352.4,
+      "startFrame": 98,
+      "endFrame": 101
+    },
+    {
+      "text": "fonts",
+      "start_ms": 3362.4,
+      "end_ms": 3816.3,
+      "startFrame": 101,
+      "endFrame": 114
+    },
+    {
+      "text": "and",
+      "start_ms": 3826.3,
+      "end_ms": 4155.6,
+      "startFrame": 115,
+      "endFrame": 125
+    },
+    {
+      "text": "end",
+      "start_ms": 4160.5,
+      "end_ms": 4325.2,
+      "startFrame": 125,
+      "endFrame": 130
+    },
+    {
+      "text": "up",
+      "start_ms": 4330.2,
+      "end_ms": 4494.8,
+      "startFrame": 130,
+      "endFrame": 135
+    },
+    {
+      "text": "with",
+      "start_ms": 4494.8,
+      "end_ms": 4629.5,
+      "startFrame": 135,
+      "endFrame": 139
+    },
+    {
+      "text": "generic",
+      "start_ms": 4644.4,
+      "end_ms": 5188.2,
+      "startFrame": 139,
+      "endFrame": 156
+    },
+    {
+      "text": "typography",
+      "start_ms": 5203.2,
+      "end_ms": 5946.9,
+      "startFrame": 156,
+      "endFrame": 178
+    },
+    {
+      "text": "But",
+      "start_ms": 6188.1,
+      "end_ms": 6243.0,
+      "startFrame": 186,
+      "endFrame": 187
+    },
+    {
+      "text": "Krafto",
+      "start_ms": 6243.0,
+      "end_ms": 6702.0,
+      "startFrame": 187,
+      "endFrame": 201
+    },
+    {
+      "text": "just",
+      "start_ms": 6711.9,
+      "end_ms": 7081.1,
+      "startFrame": 201,
+      "endFrame": 212
+    },
+    {
+      "text": "released",
+      "start_ms": 7096.1,
+      "end_ms": 7557.5,
+      "startFrame": 213,
+      "endFrame": 227
+    },
+    {
+      "text": "an",
+      "start_ms": 7570.0,
+      "end_ms": 7629.8,
+      "startFrame": 227,
+      "endFrame": 229
+    },
+    {
+      "text": "official",
+      "start_ms": 7639.8,
+      "end_ms": 8063.9,
+      "startFrame": 229,
+      "endFrame": 242
+    },
+    {
+      "text": "Claude",
+      "start_ms": 8098.8,
+      "end_ms": 8557.7,
+      "startFrame": 243,
+      "endFrame": 257
+    },
+    {
+      "text": "M-C-P",
+      "start_ms": 8562.7,
+      "end_ms": 9056.6,
+      "startFrame": 257,
+      "endFrame": 272
+    },
+    {
+      "text": "server",
+      "start_ms": 9066.6,
+      "end_ms": 9539.2,
+      "startFrame": 272,
+      "endFrame": 286
+    },
+    {
+      "text": "that",
+      "start_ms": 9737.7,
+      "end_ms": 9782.6,
+      "startFrame": 292,
+      "endFrame": 293
+    },
+    {
+      "text": "turns",
+      "start_ms": 9782.6,
+      "end_ms": 10047.0,
+      "startFrame": 293,
+      "endFrame": 301
+    },
+    {
+      "text": "Claude",
+      "start_ms": 10047.0,
+      "end_ms": 10431.1,
+      "startFrame": 301,
+      "endFrame": 313
+    },
+    {
+      "text": "into",
+      "start_ms": 10446.1,
+      "end_ms": 10645.6,
+      "startFrame": 313,
+      "endFrame": 319
+    },
+    {
+      "text": "your",
+      "start_ms": 10655.6,
+      "end_ms": 10770.3,
+      "startFrame": 320,
+      "endFrame": 323
+    },
+    {
+      "text": "personal",
+      "start_ms": 10780.3,
+      "end_ms": 11289.1,
+      "startFrame": 323,
+      "endFrame": 339
+    },
+    {
+      "text": "creative",
+      "start_ms": 11304.1,
+      "end_ms": 11865.3,
+      "startFrame": 339,
+      "endFrame": 356
+    },
+    {
+      "text": "font",
+      "start_ms": 11877.8,
+      "end_ms": 12217.0,
+      "startFrame": 356,
+      "endFrame": 367
+    },
+    {
+      "text": "library",
+      "start_ms": 12222.0,
+      "end_ms": 12732.4,
+      "startFrame": 367,
+      "endFrame": 382
+    },
+    {
+      "text": "Here",
+      "start_ms": 12840.1,
+      "end_ms": 13012.2,
+      "startFrame": 385,
+      "endFrame": 390
+    },
+    {
+      "text": "are",
+      "start_ms": 13029.7,
+      "end_ms": 13174.3,
+      "startFrame": 391,
+      "endFrame": 395
+    },
+    {
+      "text": "three",
+      "start_ms": 13189.3,
+      "end_ms": 13533.5,
+      "startFrame": 396,
+      "endFrame": 406
+    },
+    {
+      "text": "stunning",
+      "start_ms": 13548.5,
+      "end_ms": 14062.3,
+      "startFrame": 406,
+      "endFrame": 422
+    },
+    {
+      "text": "Krafto",
+      "start_ms": 14067.3,
+      "end_ms": 14551.2,
+      "startFrame": 422,
+      "endFrame": 437
+    },
+    {
+      "text": "fonts",
+      "start_ms": 14561.2,
+      "end_ms": 14930.3,
+      "startFrame": 437,
+      "endFrame": 448
+    },
+    {
+      "text": "you",
+      "start_ms": 14945.3,
+      "end_ms": 15020.1,
+      "startFrame": 448,
+      "endFrame": 451
+    },
+    {
+      "text": "can",
+      "start_ms": 15035.1,
+      "end_ms": 15219.7,
+      "startFrame": 451,
+      "endFrame": 457
+    },
+    {
+      "text": "connect",
+      "start_ms": 15229.7,
+      "end_ms": 15514.0,
+      "startFrame": 457,
+      "endFrame": 465
+    },
+    {
+      "text": "to",
+      "start_ms": 15514.0,
+      "end_ms": 15673.7,
+      "startFrame": 465,
+      "endFrame": 470
+    },
+    {
+      "text": "your",
+      "start_ms": 15688.6,
+      "end_ms": 15830.8,
+      "startFrame": 471,
+      "endFrame": 475
+    },
+    {
+      "text": "workflow",
+      "start_ms": 15843.3,
+      "end_ms": 16367.1,
+      "startFrame": 475,
+      "endFrame": 491
+    },
+    {
+      "text": "right",
+      "start_ms": 16372.1,
+      "end_ms": 16756.2,
+      "startFrame": 491,
+      "endFrame": 503
+    },
+    {
+      "text": "now",
+      "start_ms": 16771.2,
+      "end_ms": 17172.4,
+      "startFrame": 503,
+      "endFrame": 515
+    },
+    {
+      "text": "First",
+      "start_ms": 17342.8,
+      "end_ms": 17867.5,
+      "startFrame": 520,
+      "endFrame": 536
+    },
+    {
+      "text": "Iron",
+      "start_ms": 17958.3,
+      "end_ms": 18172.8,
+      "startFrame": 539,
+      "endFrame": 545
+    },
+    {
+      "text": "Maiden",
+      "start_ms": 18187.8,
+      "end_ms": 18681.6,
+      "startFrame": 546,
+      "endFrame": 560
+    },
+    {
+      "text": "When",
+      "start_ms": 18963.0,
+      "end_ms": 19107.6,
+      "startFrame": 569,
+      "endFrame": 573
+    },
+    {
+      "text": "you",
+      "start_ms": 19107.6,
+      "end_ms": 19187.5,
+      "startFrame": 573,
+      "endFrame": 576
+    },
+    {
+      "text": "need",
+      "start_ms": 19187.5,
+      "end_ms": 19267.3,
+      "startFrame": 576,
+      "endFrame": 578
+    },
+    {
+      "text": "high-voltage",
+      "start_ms": 19267.3,
+      "end_ms": 19980.7,
+      "startFrame": 578,
+      "endFrame": 599
+    },
+    {
+      "text": "headlines",
+      "start_ms": 19985.6,
+      "end_ms": 20514.4,
+      "startFrame": 600,
+      "endFrame": 615
+    },
+    {
+      "text": "with",
+      "start_ms": 20524.4,
+      "end_ms": 20694.0,
+      "startFrame": 616,
+      "endFrame": 621
+    },
+    {
+      "text": "raw",
+      "start_ms": 20704.0,
+      "end_ms": 20998.3,
+      "startFrame": 621,
+      "endFrame": 630
+    },
+    {
+      "text": "character",
+      "start_ms": 20998.3,
+      "end_ms": 21562.1,
+      "startFrame": 630,
+      "endFrame": 647
+    },
+    {
+      "text": "and",
+      "start_ms": 21567.1,
+      "end_ms": 21661.8,
+      "startFrame": 647,
+      "endFrame": 650
+    },
+    {
+      "text": "heavy",
+      "start_ms": 21666.8,
+      "end_ms": 22026.0,
+      "startFrame": 650,
+      "endFrame": 661
+    },
+    {
+      "text": "metal",
+      "start_ms": 22031.0,
+      "end_ms": 22335.3,
+      "startFrame": 661,
+      "endFrame": 670
+    },
+    {
+      "text": "attitude",
+      "start_ms": 22345.3,
+      "end_ms": 22859.1,
+      "startFrame": 670,
+      "endFrame": 686
+    },
+    {
+      "text": "Iron",
+      "start_ms": 23007.2,
+      "end_ms": 23206.7,
+      "startFrame": 690,
+      "endFrame": 696
+    },
+    {
+      "text": "Maiden",
+      "start_ms": 23206.7,
+      "end_ms": 23560.9,
+      "startFrame": 696,
+      "endFrame": 707
+    },
+    {
+      "text": "transforms",
+      "start_ms": 23570.9,
+      "end_ms": 24299.3,
+      "startFrame": 707,
+      "endFrame": 729
+    },
+    {
+      "text": "boring",
+      "start_ms": 24304.3,
+      "end_ms": 24703.3,
+      "startFrame": 729,
+      "endFrame": 741
+    },
+    {
+      "text": "hero",
+      "start_ms": 24728.3,
+      "end_ms": 25042.6,
+      "startFrame": 742,
+      "endFrame": 751
+    },
+    {
+      "text": "sections",
+      "start_ms": 25042.6,
+      "end_ms": 25536.5,
+      "startFrame": 751,
+      "endFrame": 766
+    },
+    {
+      "text": "into",
+      "start_ms": 25546.4,
+      "end_ms": 25815.8,
+      "startFrame": 766,
+      "endFrame": 774
+    },
+    {
+      "text": "bold",
+      "start_ms": 25825.8,
+      "end_ms": 26279.8,
+      "startFrame": 775,
+      "endFrame": 788
+    },
+    {
+      "text": "unforgettable",
+      "start_ms": 26479.3,
+      "end_ms": 27202.7,
+      "startFrame": 794,
+      "endFrame": 816
+    },
+    {
+      "text": "statements",
+      "start_ms": 27217.6,
+      "end_ms": 27891.1,
+      "startFrame": 817,
+      "endFrame": 837
+    },
+    {
+      "text": "Second",
+      "start_ms": 28057.1,
+      "end_ms": 28599.7,
+      "startFrame": 842,
+      "endFrame": 858
+    },
+    {
+      "text": "Stop-D",
+      "start_ms": 28680.5,
+      "end_ms": 29519.1,
+      "startFrame": 860,
+      "endFrame": 886
+    },
+    {
+      "text": "A",
+      "start_ms": 29726.6,
+      "end_ms": 29841.3,
+      "startFrame": 892,
+      "endFrame": 895
+    },
+    {
+      "text": "razor-sharp",
+      "start_ms": 29841.3,
+      "end_ms": 30415.0,
+      "startFrame": 895,
+      "endFrame": 912
+    },
+    {
+      "text": "futuristic",
+      "start_ms": 30425.0,
+      "end_ms": 31133.4,
+      "startFrame": 913,
+      "endFrame": 934
+    },
+    {
+      "text": "stencil",
+      "start_ms": 31153.3,
+      "end_ms": 31617.3,
+      "startFrame": 935,
+      "endFrame": 949
+    },
+    {
+      "text": "typeface",
+      "start_ms": 31627.3,
+      "end_ms": 32146.1,
+      "startFrame": 949,
+      "endFrame": 964
+    },
+    {
+      "text": "engineered",
+      "start_ms": 32161.0,
+      "end_ms": 32794.6,
+      "startFrame": 965,
+      "endFrame": 984
+    },
+    {
+      "text": "for",
+      "start_ms": 32804.6,
+      "end_ms": 32929.3,
+      "startFrame": 984,
+      "endFrame": 988
+    },
+    {
+      "text": "modern",
+      "start_ms": 32944.3,
+      "end_ms": 33173.7,
+      "startFrame": 988,
+      "endFrame": 995
+    },
+    {
+      "text": "tech",
+      "start_ms": 33188.7,
+      "end_ms": 33498.0,
+      "startFrame": 996,
+      "endFrame": 1005
+    },
+    {
+      "text": "brands",
+      "start_ms": 33513.0,
+      "end_ms": 33907.1,
+      "startFrame": 1005,
+      "endFrame": 1017
+    },
+    {
+      "text": "web",
+      "start_ms": 33996.9,
+      "end_ms": 34241.3,
+      "startFrame": 1020,
+      "endFrame": 1027
+    },
+    {
+      "text": "apps",
+      "start_ms": 34251.3,
+      "end_ms": 34495.7,
+      "startFrame": 1028,
+      "endFrame": 1035
+    },
+    {
+      "text": "and",
+      "start_ms": 34670.3,
+      "end_ms": 34745.2,
+      "startFrame": 1040,
+      "endFrame": 1042
+    },
+    {
+      "text": "dashboards",
+      "start_ms": 34760.1,
+      "end_ms": 35383.7,
+      "startFrame": 1043,
+      "endFrame": 1062
+    },
+    {
+      "text": "that",
+      "start_ms": 35411.2,
+      "end_ms": 35563.3,
+      "startFrame": 1062,
+      "endFrame": 1067
+    },
+    {
+      "text": "demand",
+      "start_ms": 35573.3,
+      "end_ms": 35942.4,
+      "startFrame": 1067,
+      "endFrame": 1078
+    },
+    {
+      "text": "immediate",
+      "start_ms": 35952.4,
+      "end_ms": 36521.1,
+      "startFrame": 1079,
+      "endFrame": 1096
+    },
+    {
+      "text": "visual",
+      "start_ms": 36541.1,
+      "end_ms": 37030.0,
+      "startFrame": 1096,
+      "endFrame": 1111
+    },
+    {
+      "text": "authority",
+      "start_ms": 37040.0,
+      "end_ms": 37596.3,
+      "startFrame": 1111,
+      "endFrame": 1128
+    },
+    {
+      "text": "Third",
+      "start_ms": 37762.2,
+      "end_ms": 38269.0,
+      "startFrame": 1133,
+      "endFrame": 1148
+    },
+    {
+      "text": "Aardvark",
+      "start_ms": 38449.6,
+      "end_ms": 38788.8,
+      "startFrame": 1153,
+      "endFrame": 1164
+    },
+    {
+      "text": "Cafe",
+      "start_ms": 38788.8,
+      "end_ms": 39462.3,
+      "startFrame": 1164,
+      "endFrame": 1184
+    },
+    {
+      "text": "When",
+      "start_ms": 39672.9,
+      "end_ms": 39712.9,
+      "startFrame": 1190,
+      "endFrame": 1191
+    },
+    {
+      "text": "you",
+      "start_ms": 39707.8,
+      "end_ms": 39747.8,
+      "startFrame": 1191,
+      "endFrame": 1192
+    },
+    {
+      "text": "want",
+      "start_ms": 39757.7,
+      "end_ms": 39969.7,
+      "startFrame": 1193,
+      "endFrame": 1199
+    },
+    {
+      "text": "warm",
+      "start_ms": 39987.2,
+      "end_ms": 40391.3,
+      "startFrame": 1200,
+      "endFrame": 1212
+    },
+    {
+      "text": "retro",
+      "start_ms": 40401.2,
+      "end_ms": 40820.3,
+      "startFrame": 1212,
+      "endFrame": 1225
+    },
+    {
+      "text": "charm",
+      "start_ms": 40830.3,
+      "end_ms": 41204.4,
+      "startFrame": 1225,
+      "endFrame": 1236
+    },
+    {
+      "text": "and",
+      "start_ms": 41214.4,
+      "end_ms": 41379.0,
+      "startFrame": 1236,
+      "endFrame": 1241
+    },
+    {
+      "text": "editorial",
+      "start_ms": 41413.9,
+      "end_ms": 42017.6,
+      "startFrame": 1242,
+      "endFrame": 1261
+    },
+    {
+      "text": "craftsmanship",
+      "start_ms": 42047.5,
+      "end_ms": 42735.9,
+      "startFrame": 1261,
+      "endFrame": 1282
+    },
+    {
+      "text": "Aardvark",
+      "start_ms": 43021.0,
+      "end_ms": 43355.3,
+      "startFrame": 1291,
+      "endFrame": 1301
+    },
+    {
+      "text": "Cafe",
+      "start_ms": 43370.2,
+      "end_ms": 43759.4,
+      "startFrame": 1301,
+      "endFrame": 1313
+    },
+    {
+      "text": "delivers",
+      "start_ms": 43774.3,
+      "end_ms": 44183.4,
+      "startFrame": 1313,
+      "endFrame": 1326
+    },
+    {
+      "text": "timeless",
+      "start_ms": 44193.4,
+      "end_ms": 44712.2,
+      "startFrame": 1326,
+      "endFrame": 1341
+    },
+    {
+      "text": "personality",
+      "start_ms": 44722.2,
+      "end_ms": 45445.5,
+      "startFrame": 1342,
+      "endFrame": 1363
+    },
+    {
+      "text": "that",
+      "start_ms": 45460.5,
+      "end_ms": 45635.1,
+      "startFrame": 1364,
+      "endFrame": 1369
+    },
+    {
+      "text": "makes",
+      "start_ms": 45645.1,
+      "end_ms": 45889.5,
+      "startFrame": 1369,
+      "endFrame": 1377
+    },
+    {
+      "text": "any",
+      "start_ms": 45919.5,
+      "end_ms": 46203.8,
+      "startFrame": 1378,
+      "endFrame": 1386
+    },
+    {
+      "text": "creative",
+      "start_ms": 46213.8,
+      "end_ms": 46652.8,
+      "startFrame": 1386,
+      "endFrame": 1400
+    },
+    {
+      "text": "project",
+      "start_ms": 46667.8,
+      "end_ms": 47076.8,
+      "startFrame": 1400,
+      "endFrame": 1412
+    },
+    {
+      "text": "look",
+      "start_ms": 47081.8,
+      "end_ms": 47326.3,
+      "startFrame": 1412,
+      "endFrame": 1420
+    },
+    {
+      "text": "custom",
+      "start_ms": 47331.2,
+      "end_ms": 47760.3,
+      "startFrame": 1420,
+      "endFrame": 1433
+    },
+    {
+      "text": "designed",
+      "start_ms": 47782.7,
+      "end_ms": 48328.5,
+      "startFrame": 1433,
+      "endFrame": 1450
+    },
+    {
+      "text": "Best",
+      "start_ms": 48494.4,
+      "end_ms": 48743.8,
+      "startFrame": 1455,
+      "endFrame": 1462
+    },
+    {
+      "text": "part",
+      "start_ms": 48748.8,
+      "end_ms": 49023.2,
+      "startFrame": 1462,
+      "endFrame": 1471
+    },
+    {
+      "text": "connect",
+      "start_ms": 49222.1,
+      "end_ms": 49356.8,
+      "startFrame": 1477,
+      "endFrame": 1481
+    },
+    {
+      "text": "the",
+      "start_ms": 49361.8,
+      "end_ms": 49521.4,
+      "startFrame": 1481,
+      "endFrame": 1486
+    },
+    {
+      "text": "Krafto",
+      "start_ms": 49531.4,
+      "end_ms": 49995.3,
+      "startFrame": 1486,
+      "endFrame": 1500
+    },
+    {
+      "text": "M-C-P",
+      "start_ms": 50005.3,
+      "end_ms": 50618.9,
+      "startFrame": 1500,
+      "endFrame": 1519
+    },
+    {
+      "text": "at",
+      "start_ms": 50638.9,
+      "end_ms": 50988.1,
+      "startFrame": 1519,
+      "endFrame": 1530
+    },
+    {
+      "text": "mcp",
+      "start_ms": 50993.0,
+      "end_ms": 51561.8,
+      "startFrame": 1530,
+      "endFrame": 1547
+    },
+    {
+      "text": "dot",
+      "start_ms": 51571.7,
+      "end_ms": 51836.1,
+      "startFrame": 1547,
+      "endFrame": 1555
+    },
+    {
+      "text": "trykrafto",
+      "start_ms": 51876.0,
+      "end_ms": 52669.2,
+      "startFrame": 1556,
+      "endFrame": 1580
+    },
+    {
+      "text": "dot",
+      "start_ms": 52679.2,
+      "end_ms": 52943.6,
+      "startFrame": 1580,
+      "endFrame": 1588
+    },
+    {
+      "text": "xyz",
+      "start_ms": 52948.6,
+      "end_ms": 53696.9,
+      "startFrame": 1588,
+      "endFrame": 1611
+    },
+    {
+      "text": "slash",
+      "start_ms": 53706.9,
+      "end_ms": 54116.0,
+      "startFrame": 1611,
+      "endFrame": 1623
+    },
+    {
+      "text": "mcp",
+      "start_ms": 54125.9,
+      "end_ms": 54849.4,
+      "startFrame": 1624,
+      "endFrame": 1645
+    },
+    {
+      "text": "to",
+      "start_ms": 54948.1,
+      "end_ms": 54988.1,
+      "startFrame": 1648,
+      "endFrame": 1650
+    },
+    {
+      "text": "let",
+      "start_ms": 54998.0,
+      "end_ms": 55177.6,
+      "startFrame": 1650,
+      "endFrame": 1655
+    },
+    {
+      "text": "Claude",
+      "start_ms": 55182.6,
+      "end_ms": 55531.8,
+      "startFrame": 1655,
+      "endFrame": 1666
+    },
+    {
+      "text": "search",
+      "start_ms": 55541.8,
+      "end_ms": 55910.9,
+      "startFrame": 1666,
+      "endFrame": 1677
+    },
+    {
+      "text": "and",
+      "start_ms": 55920.9,
+      "end_ms": 56065.6,
+      "startFrame": 1678,
+      "endFrame": 1682
+    },
+    {
+      "text": "style",
+      "start_ms": 56085.5,
+      "end_ms": 56499.6,
+      "startFrame": 1683,
+      "endFrame": 1695
+    },
+    {
+      "text": "your",
+      "start_ms": 56519.5,
+      "end_ms": 56614.3,
+      "startFrame": 1696,
+      "endFrame": 1698
+    },
+    {
+      "text": "typography",
+      "start_ms": 56614.3,
+      "end_ms": 57282.8,
+      "startFrame": 1698,
+      "endFrame": 1718
+    },
+    {
+      "text": "automatically",
+      "start_ms": 57292.8,
+      "end_ms": 58145.8,
+      "startFrame": 1719,
+      "endFrame": 1744
+    },
+    {
+      "text": "Comment",
+      "start_ms": 58411.5,
+      "end_ms": 58541.2,
+      "startFrame": 1752,
+      "endFrame": 1756
+    },
+    {
+      "text": "Krafto",
+      "start_ms": 58568.6,
+      "end_ms": 59104.9,
+      "startFrame": 1757,
+      "endFrame": 1773
+    },
+    {
+      "text": "below",
+      "start_ms": 59119.9,
+      "end_ms": 59523.9,
+      "startFrame": 1774,
+      "endFrame": 1786
+    },
+    {
+      "text": "for",
+      "start_ms": 59533.9,
+      "end_ms": 59763.4,
+      "startFrame": 1786,
+      "endFrame": 1793
+    },
+    {
+      "text": "the",
+      "start_ms": 59773.4,
+      "end_ms": 59853.2,
+      "startFrame": 1793,
+      "endFrame": 1796
+    },
+    {
+      "text": "setup",
+      "start_ms": 59858.2,
+      "end_ms": 60262.3,
+      "startFrame": 1796,
+      "endFrame": 1808
+    },
+    {
+      "text": "guide",
+      "start_ms": 60272.2,
+      "end_ms": 60496.7,
+      "startFrame": 1808,
+      "endFrame": 1815
+    },
+    {
+      "text": "and",
+      "start_ms": 60551.6,
+      "end_ms": 60681.3,
+      "startFrame": 1817,
+      "endFrame": 1820
+    },
+    {
+      "text": "font",
+      "start_ms": 60691.3,
+      "end_ms": 60965.7,
+      "startFrame": 1821,
+      "endFrame": 1829
+    },
+    {
+      "text": "pack",
+      "start_ms": 60980.6,
+      "end_ms": 61309.9,
+      "startFrame": 1829,
+      "endFrame": 1839
+    },
+    {
+      "text": "Follow",
+      "start_ms": 61442.1,
+      "end_ms": 61691.5,
+      "startFrame": 1843,
+      "endFrame": 1851
+    },
+    {
+      "text": "Krafto",
+      "start_ms": 61701.5,
+      "end_ms": 62150.5,
+      "startFrame": 1851,
+      "endFrame": 1865
+    },
+    {
+      "text": "for",
+      "start_ms": 62165.5,
+      "end_ms": 62320.1,
+      "startFrame": 1865,
+      "endFrame": 1870
+    },
+    {
+      "text": "more",
+      "start_ms": 62330.1,
+      "end_ms": 62589.5,
+      "startFrame": 1870,
+      "endFrame": 1878
+    },
+    {
+      "text": "creative",
+      "start_ms": 62604.5,
+      "end_ms": 63190.6,
+      "startFrame": 1878,
+      "endFrame": 1896
+    },
+    {
+      "text": "AI",
+      "start_ms": 63228.0,
+      "end_ms": 63487.5,
+      "startFrame": 1897,
+      "endFrame": 1905
+    },
+    {
+      "text": "workflows",
+      "start_ms": 63487.5,
+      "end_ms": 64195.8,
+      "startFrame": 1905,
+      "endFrame": 1926
+    }
+  ]
+}

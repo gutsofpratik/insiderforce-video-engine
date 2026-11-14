@@ -11,10 +11,25 @@ import {
   KRAFTO_MCP_DEFAULT_PROPS,
   kraftoMcpShortSchema,
 } from './kraftoTextLayer';
+import { KraftoAudioShort } from './KraftoAudioShort';
+import {
+  KRAFTO_AUDIO_DEFAULT_PROPS,
+  kraftoAudioShortSchema,
+} from './kraftoAudioTextLayer';
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="KraftoAudioShort"
+        component={KraftoAudioShort}
+        schema={kraftoAudioShortSchema}
+        defaultProps={KRAFTO_AUDIO_DEFAULT_PROPS}
+        durationInFrames={2034}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="KraftoMcpShort"
         component={KraftoMcpShort}

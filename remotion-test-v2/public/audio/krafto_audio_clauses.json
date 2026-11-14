@@ -1,0 +1,128 @@
+[
+  {
+    "clause_idx": 0,
+    "start_sec": 0.0,
+    "duration_sec": 4.465,
+    "start_frame_30fps": 0.0,
+    "duration_frames_30fps": 133.95
+  },
+  {
+    "clause_idx": 1,
+    "start_sec": 4.595,
+    "duration_sec": 5.21,
+    "start_frame_30fps": 137.85,
+    "duration_frames_30fps": 156.3
+  },
+  {
+    "clause_idx": 2,
+    "start_sec": 9.935,
+    "duration_sec": 6.48,
+    "start_frame_30fps": 298.05,
+    "duration_frames_30fps": 194.4
+  },
+  {
+    "clause_idx": 3,
+    "start_sec": 16.545,
+    "duration_sec": 2.105,
+    "start_frame_30fps": 496.35,
+    "duration_frames_30fps": 63.15
+  },
+  {
+    "clause_idx": 4,
+    "start_sec": 18.78,
+    "duration_sec": 8.31,
+    "start_frame_30fps": 563.4,
+    "duration_frames_30fps": 249.3
+  },
+  {
+    "clause_idx": 5,
+    "start_sec": 27.22,
+    "duration_sec": 0.625,
+    "start_frame_30fps": 816.6,
+    "duration_frames_30fps": 18.75
+  },
+  {
+    "clause_idx": 6,
+    "start_sec": 27.975,
+    "duration_sec": 1.39,
+    "start_frame_30fps": 839.25,
+    "duration_frames_30fps": 41.7
+  },
+  {
+    "clause_idx": 7,
+    "start_sec": 29.495,
+    "duration_sec": 3.765,
+    "start_frame_30fps": 884.85,
+    "duration_frames_30fps": 112.95
+  },
+  {
+    "clause_idx": 8,
+    "start_sec": 33.39,
+    "duration_sec": 1.7,
+    "start_frame_30fps": 1001.7,
+    "duration_frames_30fps": 51.0
+  },
+  {
+    "clause_idx": 9,
+    "start_sec": 35.22,
+    "duration_sec": 2.09,
+    "start_frame_30fps": 1056.6,
+    "duration_frames_30fps": 62.7
+  },
+  {
+    "clause_idx": 10,
+    "start_sec": 37.44,
+    "duration_sec": 0.55,
+    "start_frame_30fps": 1123.2,
+    "duration_frames_30fps": 16.5
+  },
+  {
+    "clause_idx": 11,
+    "start_sec": 38.12,
+    "duration_sec": 1.415,
+    "start_frame_30fps": 1143.6,
+    "duration_frames_30fps": 42.45
+  },
+  {
+    "clause_idx": 12,
+    "start_sec": 39.665,
+    "duration_sec": 5.875,
+    "start_frame_30fps": 1189.95,
+    "duration_frames_30fps": 176.25
+  },
+  {
+    "clause_idx": 13,
+    "start_sec": 45.67,
+    "duration_sec": 1.82,
+    "start_frame_30fps": 1370.1,
+    "duration_frames_30fps": 54.6
+  },
+  {
+    "clause_idx": 14,
+    "start_sec": 47.62,
+    "duration_sec": 4.78,
+    "start_frame_30fps": 1428.6,
+    "duration_frames_30fps": 143.4
+  },
+  {
+    "clause_idx": 15,
+    "start_sec": 52.53,
+    "duration_sec": 7.97,
+    "start_frame_30fps": 1575.9,
+    "duration_frames_30fps": 239.1
+  },
+  {
+    "clause_idx": 16,
+    "start_sec": 60.63,
+    "duration_sec": 4.135,
+    "start_frame_30fps": 1818.9,
+    "duration_frames_30fps": 124.05
+  },
+  {
+    "clause_idx": 17,
+    "start_sec": 64.895,
+    "duration_sec": 2.905,
+    "start_frame_30fps": 1946.85,
+    "duration_frames_30fps": 87.15
+  }
+]

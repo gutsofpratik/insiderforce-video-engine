@@ -32,6 +32,7 @@ function measureWordPx(
   fontSize: number,
   letterSpacingEm: number
 ): number {
+  if (!text) return 0;
   const key = `${text}|${fontWeight}|${italic ? 1 : 0}|${fontSize}|${letterSpacingEm}`;
   const cached = textWidthCache.get(key);
   if (cached !== undefined) return cached;
@@ -399,17 +400,32 @@ export const KineticWordFlow: React.FC<{
         transform: `translate3d(0, ${(-verticalPull).toFixed(2)}px, 0)`,
       }}
     >
-      {nonEmptyLines.map((line, li) => (
-        <div
-          key={li}
-          style={{
-            display: 'flex',
-            flexWrap: 'nowrap',
-            justifyContent: 'center',
-            alignItems: 'baseline',
-          }}
-        >
-          {line.map((w, wi) => {
+      {nonEmptyLines.map((line, li) => {
+        // Auto-scale protection: calculate total line width to guarantee zero screen overflow
+        const totalLineWidth = line.reduce((acc, w, wi) => {
+          const sz = w.size ?? baseSize;
+          const fw = weightMap[w.weight ?? 'medium'];
+          const letterEm = sz >= 64 ? -0.042 : -0.030;
+          const rawWidth = measureWordPx(w.text, fw, Boolean(w.italic), sz, letterEm);
+          const pillExtra = w.highlightPill || w.highlightSweep ? 32 : 0;
+          const gapRight = wi < line.length - 1 ? sz * 0.30 : 0;
+          return acc + rawWidth + pillExtra + gapRight;
+        }, 0);
+        const lineScale = totalLineWidth > maxWidth ? Math.max(0.72, (maxWidth - 12) / totalLineWidth) : 1.0;
+
+        return (
+          <div
+            key={li}
+            style={{
+              display: 'flex',
+              flexWrap: 'nowrap',
+              justifyContent: 'center',
+              alignItems: 'baseline',
+              transform: lineScale < 1 ? `scale(${lineScale})` : undefined,
+              transformOrigin: 'center center',
+            }}
+          >
+            {line.map((w, wi) => {
             const local = frame - w.startFrame;
             if (local < -2) return null;
 
@@ -583,7 +599,8 @@ export const KineticWordFlow: React.FC<{
             );
           })}
         </div>
-      ))}
+        );
+      })}
     </div>
   );
 };

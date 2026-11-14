@@ -4,7 +4,7 @@ import { KineticWordProps } from './Primitives';
 export const kineticWordSchema = z.object({
   text: z.string(),
   startFrame: z.number().min(0),
-  weight: z.enum(['regular', 'medium', 'bold', 'heavy']).optional(),
+  weight: z.enum(['regular', 'medium', 'semibold', 'bold', 'heavy']).optional(),
   italic: z.boolean().optional(),
   muted: z.boolean().optional(),
   size: z.number().optional(),
@@ -22,7 +22,7 @@ export const kraftoAudioShortSchema = z.object({
     channelName: z.string().default('Krafto'),
     followButtonText: z.string().default('Follow'),
     followSubtext: z.string().default('Sound Effects · Audio Pack'),
-    watermark: z.string().default(''), // Strictly clean: no insiderforce.io watermark
+    watermark: z.string().default(''),
   }),
 });
 
@@ -36,11 +36,13 @@ export type KraftoAudioShortProps = z.infer<typeof kraftoAudioShortSchema> & {
     badge: { num: string; name: string; tagline: string };
     phase1Words: KineticWordProps[];
     phase2Words: KineticWordProps[];
+    phase3Words: KineticWordProps[];
   };
   scene4Echo: {
     badge: { num: string; name: string; tagline: string };
     phase1Words: KineticWordProps[];
     phase2Words: KineticWordProps[];
+    phase3Words: KineticWordProps[];
   };
   scene5Tide: {
     badge: { num: string; name: string; tagline: string };
@@ -50,6 +52,8 @@ export type KraftoAudioShortProps = z.infer<typeof kraftoAudioShortSchema> & {
   scene6Setup: {
     phase1Words: KineticWordProps[];
     phase2Words: KineticWordProps[];
+    phase3Words: KineticWordProps[];
+    phase4Words: KineticWordProps[];
     urlPill: string;
   };
   scene7Outro: {
@@ -69,35 +73,43 @@ export const KRAFTO_AUDIO_DEFAULT_PROPS: KraftoAudioShortProps = {
     words: [
     {
         "text": "Stop",
-        "startFrame": 0,
-        "weight": "semibold"
+        "startFrame": 0.0,
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "wasting",
         "startFrame": 8.6,
-        "weight": "semibold"
+        "weight": "medium",
+        "size": 52,
+        "muted": true
     },
     {
         "text": "hours",
         "startFrame": 23.8,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "digging",
         "startFrame": 34.6,
-        "weight": "semibold"
+        "weight": "medium",
+        "size": 52,
+        "muted": true
     },
     {
         "text": "through",
         "startFrame": 49.7,
-        "weight": "semibold",
+        "weight": "medium",
+        "size": 52,
+        "muted": true,
         "lineBreakAfter": true
     },
     {
         "text": "bloated",
         "startFrame": 64.8,
         "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
@@ -106,6 +118,7 @@ export const KRAFTO_AUDIO_DEFAULT_PROPS: KraftoAudioShortProps = {
         "text": "stock",
         "startFrame": 79.9,
         "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
@@ -114,32 +127,30 @@ export const KRAFTO_AUDIO_DEFAULT_PROPS: KraftoAudioShortProps = {
         "text": "sites",
         "startFrame": 90.7,
         "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
-    },
-    {
-        "text": "for",
-        "startFrame": 101.5,
-        "weight": "semibold"
-    },
-    {
-        "text": "sound",
-        "startFrame": 108.0,
-        "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
     },
     {
+        "text": "for",
+        "startFrame": 101.5,
+        "weight": "medium",
+        "size": 52,
+        "muted": true
+    },
+    {
+        "text": "sound",
+        "startFrame": 108.0,
+        "weight": "bold",
+        "size": 54
+    },
+    {
         "text": "effects.",
         "startFrame": 118.8,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
+        "weight": "bold",
+        "size": 54,
+        "underline": true
     }
 ],
   },
@@ -147,37 +158,42 @@ export const KRAFTO_AUDIO_DEFAULT_PROPS: KraftoAudioShortProps = {
     phase1Words: [
     {
         "text": "Krafto",
-        "startFrame": 0,
-        "weight": "semibold"
+        "startFrame": 0.0,
+        "weight": "heavy",
+        "size": 52
     },
     {
         "text": "just",
         "startFrame": 12.5,
-        "weight": "semibold"
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "launched",
         "startFrame": 21.0,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "weight": "bold",
+        "size": 50
     },
     {
         "text": "an",
         "startFrame": 37.9,
-        "weight": "semibold"
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "official",
         "startFrame": 42.1,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
+        "weight": "bold",
+        "size": 50,
+        "lineBreakAfter": true
     },
     {
         "text": "audio",
         "startFrame": 59.0,
         "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
@@ -186,136 +202,150 @@ export const KRAFTO_AUDIO_DEFAULT_PROPS: KraftoAudioShortProps = {
         "text": "library",
         "startFrame": 69.6,
         "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
+        "highlightSweepTextColor": "#FFFFFF"
     },
     {
         "text": "built",
         "startFrame": 84.3,
-        "weight": "semibold"
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "specifically",
         "startFrame": 94.9,
-        "weight": "heavy",
-        "lineBreakAfter": true
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "for",
         "startFrame": 120.2,
-        "weight": "semibold"
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "modern",
         "startFrame": 126.6,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "creators.",
         "startFrame": 139.3,
         "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
+        "size": 54,
+        "underline": true
     }
 ],
     phase2Words: [
     {
         "text": "Every",
-        "startFrame": 0.1,
-        "weight": "semibold"
+        "startFrame": 0.0,
+        "weight": "bold",
+        "size": 48
     },
     {
         "text": "track",
-        "startFrame": 11.1,
-        "weight": "semibold"
+        "startFrame": 11.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "is",
-        "startFrame": 22.1,
-        "weight": "semibold"
+        "startFrame": 22.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "a",
-        "startFrame": 26.6,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 26.5,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "pristine",
-        "startFrame": 28.8,
-        "weight": "semibold"
+        "startFrame": 28.7,
+        "weight": "bold",
+        "size": 50
     },
     {
-        "text": "thirty-two-bit",
-        "startFrame": 46.4,
+        "text": "32-bit",
+        "startFrame": 46.3,
         "weight": "heavy",
+        "size": 54,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
     },
     {
-        "text": "float",
-        "startFrame": 77.4,
+        "text": "Float",
+        "startFrame": 77.3,
         "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
-    },
-    {
-        "text": "stereo",
-        "startFrame": 88.4,
-        "weight": "heavy",
+        "size": 54,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF",
         "lineBreakAfter": true
     },
     {
+        "text": "stereo",
+        "startFrame": 88.3,
+        "weight": "bold",
+        "size": 50
+    },
+    {
         "text": "WAV",
-        "startFrame": 101.7,
-        "weight": "semibold"
+        "startFrame": 99.6,
+        "weight": "heavy",
+        "size": 52
     },
     {
         "text": "with",
-        "startFrame": 108.3,
-        "weight": "semibold"
+        "startFrame": 108.2,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "personal",
-        "startFrame": 117.1,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 117.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
-        "text": "and",
-        "startFrame": 134.8,
-        "weight": "semibold"
+        "text": "&",
+        "startFrame": 134.7,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "commercial",
-        "startFrame": 141.4,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
+        "startFrame": 141.3,
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "rights",
-        "startFrame": 163.5,
-        "weight": "semibold"
+        "startFrame": 163.4,
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "included.",
-        "startFrame": 176.8,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 176.7,
+        "weight": "heavy",
+        "size": 54,
+        "underline": true
     }
 ],
   },
@@ -328,135 +358,160 @@ export const KRAFTO_AUDIO_DEFAULT_PROPS: KraftoAudioShortProps = {
     phase1Words: [
     {
         "text": "First",
-        "startFrame": 0.4,
-        "weight": "semibold"
+        "startFrame": 0.0,
+        "weight": "bold",
+        "size": 48
     },
     {
         "text": "is",
-        "startFrame": 15.4,
-        "weight": "semibold",
+        "startFrame": 15.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true,
         "lineBreakAfter": true
     },
     {
         "text": "Zephyr",
-        "startFrame": 21.4,
+        "startFrame": 21.0,
         "weight": "heavy",
+        "size": 60,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
     },
     {
         "text": "Ambience.",
-        "startFrame": 39.4,
+        "startFrame": 39.0,
         "weight": "heavy",
+        "size": 60,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
+        "highlightSweepTextColor": "#FFFFFF"
     }
 ],
     phase2Words: [
     {
         "text": "An",
-        "startFrame": 0.4,
-        "weight": "semibold"
+        "startFrame": 0.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "airy,",
-        "startFrame": 4.7,
-        "weight": "semibold"
+        "startFrame": 4.3,
+        "weight": "bold",
+        "size": 50
     },
     {
         "text": "high-frequency",
-        "startFrame": 13.4,
+        "startFrame": 13.0,
         "weight": "heavy",
-        "lineBreakAfter": true
+        "size": 54,
+        "highlightSweep": true,
+        "highlightSweepColor": "#000000",
+        "highlightSweepTextColor": "#FFFFFF"
     },
     {
         "text": "atmospheric",
-        "startFrame": 43.8,
-        "weight": "heavy"
+        "startFrame": 43.4,
+        "weight": "bold",
+        "size": 50,
+        "lineBreakAfter": true
     },
     {
         "text": "texture",
-        "startFrame": 67.6,
-        "weight": "semibold"
+        "startFrame": 67.2,
+        "weight": "bold",
+        "size": 50
     },
     {
         "text": "that",
-        "startFrame": 82.8,
-        "weight": "semibold"
+        "startFrame": 82.4,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "gives",
-        "startFrame": 91.4,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 91.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "tech",
-        "startFrame": 102.3,
-        "weight": "semibold"
+        "startFrame": 101.9,
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "explainers",
-        "startFrame": 111.0,
-        "weight": "heavy"
-    },
+        "startFrame": 110.6,
+        "weight": "heavy",
+        "size": 54,
+        "underline": true
+    }
+],
+    phase3Words: [
     {
         "text": "and",
-        "startFrame": 132.6,
-        "weight": "semibold"
+        "startFrame": 0.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "motion",
-        "startFrame": 139.1,
+        "startFrame": 6.1,
         "weight": "heavy",
+        "size": 54,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
+        "highlightSweepTextColor": "#FFFFFF"
     },
     {
         "text": "graphics",
-        "startFrame": 152.1,
+        "startFrame": 19.1,
         "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
-    },
-    {
-        "text": "instant",
-        "startFrame": 169.5,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
-    },
-    {
-        "text": "depth",
-        "startFrame": 184.7,
-        "weight": "heavy",
+        "size": 54,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF",
         "lineBreakAfter": true
     },
     {
+        "text": "instant",
+        "startFrame": 36.5,
+        "weight": "bold",
+        "size": 50
+    },
+    {
+        "text": "depth",
+        "startFrame": 51.7,
+        "weight": "heavy",
+        "size": 54
+    },
+    {
         "text": "without",
-        "startFrame": 195.5,
-        "weight": "semibold"
+        "startFrame": 62.5,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "cluttering",
-        "startFrame": 210.7,
-        "weight": "heavy"
+        "startFrame": 77.7,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "dialogue.",
-        "startFrame": 232.4,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 99.4,
+        "weight": "heavy",
+        "size": 54,
+        "underline": true
     }
 ],
   },
@@ -469,59 +524,65 @@ export const KRAFTO_AUDIO_DEFAULT_PROPS: KraftoAudioShortProps = {
     phase1Words: [
     {
         "text": "Second",
-        "startFrame": 0.6,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 0.0,
+        "weight": "bold",
+        "size": 48
     },
     {
         "text": "is",
-        "startFrame": 23.2,
-        "weight": "semibold"
+        "startFrame": 22.6,
+        "weight": "medium",
+        "size": 48,
+        "muted": true,
+        "lineBreakAfter": true
     },
     {
         "text": "Echo",
-        "startFrame": 29.2,
+        "startFrame": 28.6,
         "weight": "heavy",
+        "size": 60,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
     },
     {
         "text": "Ambience.",
-        "startFrame": 41.1,
+        "startFrame": 40.5,
         "weight": "heavy",
+        "size": 60,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
+        "highlightSweepTextColor": "#FFFFFF"
     }
 ],
     phase2Words: [
     {
         "text": "A",
-        "startFrame": 0,
-        "weight": "semibold"
+        "startFrame": 0.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "spatial",
-        "startFrame": 2.4,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
+        "startFrame": 2.5,
+        "weight": "bold",
+        "size": 50
     },
     {
         "text": "cinematic",
-        "startFrame": 20.4,
+        "startFrame": 20.5,
         "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
     },
     {
         "text": "pulse",
-        "startFrame": 43.5,
+        "startFrame": 43.6,
         "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF",
@@ -529,47 +590,57 @@ export const KRAFTO_AUDIO_DEFAULT_PROPS: KraftoAudioShortProps = {
     },
     {
         "text": "with",
-        "startFrame": 56.3,
-        "weight": "semibold"
+        "startFrame": 56.4,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "natural",
-        "startFrame": 66.6,
-        "weight": "semibold"
+        "startFrame": 66.7,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "stereo",
-        "startFrame": 84.6,
-        "weight": "semibold"
+        "startFrame": 84.7,
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "decay,",
-        "startFrame": 100.0,
-        "weight": "semibold",
-        "lineBreakAfter": true
-    },
+        "startFrame": 100.1,
+        "weight": "heavy",
+        "size": 54,
+        "underline": true
+    }
+],
+    phase3Words: [
     {
-        "text": "perfect",
-        "startFrame": 116.7,
-        "weight": "semibold"
+        "text": "Perfect",
+        "startFrame": 0.0,
+        "weight": "bold",
+        "size": 50
     },
     {
         "text": "for",
-        "startFrame": 130.4,
-        "weight": "semibold"
+        "startFrame": 13.7,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "scene",
-        "startFrame": 136.3,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
+        "startFrame": 19.6,
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "transitions,",
-        "startFrame": 146.1,
+        "startFrame": 29.4,
         "weight": "heavy",
+        "size": 54,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF",
@@ -577,30 +648,35 @@ export const KRAFTO_AUDIO_DEFAULT_PROPS: KraftoAudioShortProps = {
     },
     {
         "text": "UI",
-        "startFrame": 171.6,
-        "weight": "semibold"
+        "startFrame": 54.9,
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "reveals,",
-        "startFrame": 177.6,
-        "weight": "semibold"
+        "startFrame": 60.9,
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "and",
-        "startFrame": 198.5,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 81.8,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "card",
-        "startFrame": 207.4,
-        "weight": "semibold"
+        "startFrame": 90.7,
+        "weight": "heavy",
+        "size": 54
     },
     {
         "text": "snaps.",
-        "startFrame": 219.4,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 102.7,
+        "weight": "heavy",
+        "size": 54,
+        "underline": true
     }
 ],
   },
@@ -613,476 +689,494 @@ export const KRAFTO_AUDIO_DEFAULT_PROPS: KraftoAudioShortProps = {
     phase1Words: [
     {
         "text": "Third",
-        "startFrame": 0.2,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 0.0,
+        "weight": "bold",
+        "size": 48
     },
     {
         "text": "is",
-        "startFrame": 20.6,
-        "weight": "semibold"
+        "startFrame": 20.4,
+        "weight": "medium",
+        "size": 48,
+        "muted": true,
+        "lineBreakAfter": true
     },
     {
         "text": "Tide",
-        "startFrame": 26.7,
+        "startFrame": 26.5,
         "weight": "heavy",
+        "size": 60,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
     },
     {
         "text": "Ambience.",
-        "startFrame": 38.8,
+        "startFrame": 38.6,
         "weight": "heavy",
+        "size": 60,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
+        "highlightSweepTextColor": "#FFFFFF"
     }
 ],
     phase2Words: [
     {
         "text": "A",
-        "startFrame": 0,
-        "weight": "semibold"
+        "startFrame": 0.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "dynamic",
         "startFrame": 2.4,
-        "weight": "semibold"
+        "weight": "bold",
+        "size": 50
     },
     {
         "text": "low-end",
         "startFrame": 19.3,
-        "weight": "semibold"
-    },
-    {
-        "text": "swell",
-        "startFrame": 36.2,
-        "weight": "semibold",
-        "lineBreakAfter": true
-    },
-    {
-        "text": "that",
-        "startFrame": 48.2,
-        "weight": "semibold"
-    },
-    {
-        "text": "brings",
-        "startFrame": 57.9,
-        "weight": "semibold"
-    },
-    {
-        "text": "organic",
-        "startFrame": 72.4,
         "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
     },
     {
-        "text": "weight",
-        "startFrame": 89.3,
+        "text": "swell",
+        "startFrame": 36.2,
         "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF",
         "lineBreakAfter": true
     },
     {
+        "text": "that",
+        "startFrame": 48.2,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
+    },
+    {
+        "text": "brings",
+        "startFrame": 57.9,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
+    },
+    {
+        "text": "organic",
+        "startFrame": 72.4,
+        "weight": "bold",
+        "size": 52
+    },
+    {
+        "text": "weight",
+        "startFrame": 89.3,
+        "weight": "heavy",
+        "size": 54,
+        "underline": true
+    },
+    {
         "text": "to",
         "startFrame": 103.8,
-        "weight": "semibold"
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "visual",
         "startFrame": 108.6,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
+        "weight": "bold",
+        "size": 50
     },
     {
         "text": "impacts",
         "startFrame": 123.1,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
+        "weight": "bold",
+        "size": 50
     },
     {
-        "text": "and",
+        "text": "&",
         "startFrame": 140.0,
-        "weight": "semibold",
-        "lineBreakAfter": true
-    },
-    {
-        "text": "timeline",
-        "startFrame": 147.2,
-        "weight": "semibold"
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "cuts.",
-        "startFrame": 166.5,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 147.2,
+        "weight": "heavy",
+        "size": 54
     }
 ],
   },
   scene6Setup: {
+    urlPill: 'mcp.trykrafto.xyz/mcp',
     phase1Words: [
     {
         "text": "And",
-        "startFrame": 0.1,
-        "weight": "semibold"
+        "startFrame": 0.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "here",
-        "startFrame": 7.9,
-        "weight": "semibold"
+        "startFrame": 7.8,
+        "weight": "bold",
+        "size": 50
     },
     {
         "text": "is",
-        "startFrame": 18.3,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 18.2,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "the",
-        "startFrame": 23.5,
-        "weight": "semibold"
+        "startFrame": 23.4,
+        "weight": "medium",
+        "size": 48,
+        "muted": true,
+        "lineBreakAfter": true
     },
     {
         "text": "cheat",
-        "startFrame": 31.3,
+        "startFrame": 31.2,
         "weight": "heavy",
+        "size": 62,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
     },
     {
         "text": "code.",
-        "startFrame": 44.3,
+        "startFrame": 44.2,
         "weight": "heavy",
+        "size": 62,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
-    },
-    {
-        "text": "With",
-        "startFrame": 58.6,
-        "weight": "semibold"
-    },
-    {
-        "text": "Krafto's",
-        "startFrame": 67.9,
-        "weight": "semibold"
-    },
-    {
-        "text": "official",
-        "startFrame": 86.4,
-        "weight": "semibold"
-    },
-    {
-        "text": "MCP",
-        "startFrame": 104.9,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
-    },
-    {
-        "text": "server,",
-        "startFrame": 111.8,
-        "weight": "semibold"
-    },
-    {
-        "text": "you",
-        "startFrame": 125.7,
-        "weight": "semibold"
-    },
-    {
-        "text": "can",
-        "startFrame": 132.6,
-        "weight": "semibold"
-    },
-    {
-        "text": "connect",
-        "startFrame": 139.6,
-        "weight": "semibold",
-        "lineBreakAfter": true
-    },
-    {
-        "text": "this",
-        "startFrame": 155.7,
-        "weight": "semibold"
-    },
-    {
-        "text": "directly",
-        "startFrame": 165.0,
-        "weight": "semibold"
-    },
-    {
-        "text": "to",
-        "startFrame": 183.5,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "highlightSweepTextColor": "#FFFFFF"
     }
 ],
     phase2Words: [
     {
-        "text": "Claude",
-        "startFrame": 0,
-        "weight": "semibold"
+        "text": "With",
+        "startFrame": 0.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
-        "text": "can",
-        "startFrame": 12.3,
-        "weight": "semibold"
+        "text": "Krafto's",
+        "startFrame": 9.3,
+        "weight": "bold",
+        "size": 52
     },
     {
-        "text": "search,",
-        "startFrame": 18.5,
+        "text": "official",
+        "startFrame": 27.8,
+        "weight": "bold",
+        "size": 52
+    },
+    {
+        "text": "MCP",
+        "startFrame": 46.3,
         "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
     },
     {
-        "text": "audition,",
-        "startFrame": 30.8,
+        "text": "server,",
+        "startFrame": 53.2,
         "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF",
         "lineBreakAfter": true
     },
     {
-        "text": "and",
-        "startFrame": 47.3,
-        "weight": "semibold"
+        "text": "you",
+        "startFrame": 67.1,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
+    },
+    {
+        "text": "can",
+        "startFrame": 74.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
+    },
+    {
+        "text": "connect",
+        "startFrame": 81.0,
+        "weight": "bold",
+        "size": 52
+    },
+    {
+        "text": "this",
+        "startFrame": 97.1,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
+    },
+    {
+        "text": "directly",
+        "startFrame": 106.4,
+        "weight": "bold",
+        "size": 52
+    },
+    {
+        "text": "to",
+        "startFrame": 124.9,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
+    },
+    {
+        "text": "Claude.",
+        "startFrame": 129.5,
+        "weight": "heavy",
+        "size": 56,
+        "underline": true
+    }
+],
+    phase3Words: [
+    {
+        "text": "Claude",
+        "startFrame": 0.0,
+        "weight": "heavy",
+        "size": 52
+    },
+    {
+        "text": "can",
+        "startFrame": 12.4,
+        "weight": "medium",
+        "size": 46,
+        "muted": true
+    },
+    {
+        "text": "search,",
+        "startFrame": 18.6,
+        "weight": "bold",
+        "size": 50
+    },
+    {
+        "text": "audition,",
+        "startFrame": 30.9,
+        "weight": "bold",
+        "size": 50
+    },
+    {
+        "text": "&",
+        "startFrame": 47.4,
+        "weight": "medium",
+        "size": 46,
+        "muted": true
     },
     {
         "text": "pull",
-        "startFrame": 53.5,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
-    },
-    {
-        "text": "these",
-        "startFrame": 61.7,
-        "weight": "semibold"
+        "startFrame": 53.6,
+        "weight": "bold",
+        "size": 50
     },
     {
         "text": "sound",
-        "startFrame": 72.0,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 72.1,
+        "weight": "medium",
+        "size": 46,
+        "muted": true
     },
     {
         "text": "effects",
-        "startFrame": 82.3,
-        "weight": "semibold"
-    },
-    {
-        "text": "straight",
-        "startFrame": 96.8,
-        "weight": "semibold"
-    },
-    {
-        "text": "into",
-        "startFrame": 113.3,
-        "weight": "semibold"
-    },
-    {
-        "text": "your",
-        "startFrame": 121.5,
-        "weight": "semibold",
+        "startFrame": 82.4,
+        "weight": "medium",
+        "size": 46,
+        "muted": true,
         "lineBreakAfter": true
     },
     {
+        "text": "straight",
+        "startFrame": 96.9,
+        "weight": "bold",
+        "size": 50
+    },
+    {
+        "text": "into",
+        "startFrame": 113.4,
+        "weight": "medium",
+        "size": 46,
+        "muted": true
+    },
+    {
+        "text": "your",
+        "startFrame": 121.6,
+        "weight": "medium",
+        "size": 46,
+        "muted": true
+    },
+    {
         "text": "website",
-        "startFrame": 129.8,
+        "startFrame": 129.9,
         "weight": "heavy",
+        "size": 54,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
     },
     {
         "text": "code",
-        "startFrame": 144.2,
+        "startFrame": 144.3,
         "weight": "heavy",
+        "size": 54,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
-    },
+    }
+],
+    phase4Words: [
     {
         "text": "or",
-        "startFrame": 152.4,
-        "weight": "semibold"
+        "startFrame": 0.0,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "video",
-        "startFrame": 156.6,
-        "weight": "semibold",
-        "lineBreakAfter": true
-    },
-    {
-        "text": "timeline",
-        "startFrame": 166.9,
+        "startFrame": 4.2,
         "weight": "heavy",
+        "size": 56,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
         "highlightSweepTextColor": "#FFFFFF"
     },
     {
+        "text": "timeline",
+        "startFrame": 14.5,
+        "weight": "heavy",
+        "size": 56,
+        "highlightSweep": true,
+        "highlightSweepColor": "#000000",
+        "highlightSweepTextColor": "#FFFFFF",
+        "lineBreakAfter": true
+    },
+    {
         "text": "without",
-        "startFrame": 183.3,
-        "weight": "semibold"
+        "startFrame": 30.9,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "leaving",
-        "startFrame": 197.8,
-        "weight": "semibold"
+        "startFrame": 45.4,
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "your",
-        "startFrame": 212.2,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 59.8,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "workspace.",
-        "startFrame": 220.4,
+        "startFrame": 68.0,
         "weight": "heavy",
-        "lineBreakAfter": true
+        "size": 54,
+        "underline": true
     }
 ],
-    urlPill: 'mcp.trykrafto.xyz/mcp',
   },
   scene7Outro: {
     words: [
     {
         "text": "Comment",
-        "startFrame": 0,
-        "weight": "semibold"
+        "startFrame": 0.0,
+        "weight": "heavy",
+        "size": 56
     },
     {
         "text": "Krafto",
-        "startFrame": 15.7,
+        "startFrame": 15.8,
         "weight": "heavy",
+        "size": 60,
         "highlightSweep": true,
         "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
+        "highlightSweepTextColor": "#FFFFFF"
     },
     {
         "text": "below",
-        "startFrame": 29.2,
-        "weight": "semibold"
+        "startFrame": 29.3,
+        "weight": "medium",
+        "size": 48,
+        "muted": true,
+        "lineBreakAfter": true
     },
     {
         "text": "to",
-        "startFrame": 40.5,
-        "weight": "semibold"
+        "startFrame": 40.6,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "get",
-        "startFrame": 45.0,
-        "weight": "semibold"
+        "startFrame": 45.1,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "the",
-        "startFrame": 51.8,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "startFrame": 51.9,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "setup",
-        "startFrame": 58.5,
-        "weight": "semibold"
+        "startFrame": 58.6,
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "guide",
-        "startFrame": 69.8,
-        "weight": "semibold"
+        "startFrame": 69.9,
+        "weight": "bold",
+        "size": 52
     },
     {
-        "text": "and",
-        "startFrame": 81.1,
-        "weight": "semibold"
-    },
-    {
-        "text": "the",
-        "startFrame": 87.9,
-        "weight": "semibold",
-        "lineBreakAfter": true
-    },
-    {
-        "text": "full",
-        "startFrame": 94.6,
-        "weight": "semibold"
+        "text": "&",
+        "startFrame": 81.2,
+        "weight": "medium",
+        "size": 48,
+        "muted": true
     },
     {
         "text": "audio",
-        "startFrame": 103.7,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
+        "startFrame": 87.9,
+        "weight": "bold",
+        "size": 52
     },
     {
         "text": "pack.",
-        "startFrame": 114.9,
+        "startFrame": 99.1,
         "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF",
-        "lineBreakAfter": true
-    },
-    {
-        "text": "And",
-        "startFrame": 127.8,
-        "weight": "semibold"
-    },
-    {
-        "text": "make",
-        "startFrame": 134.4,
-        "weight": "semibold"
-    },
-    {
-        "text": "sure",
-        "startFrame": 143.1,
-        "weight": "semibold"
-    },
-    {
-        "text": "you",
-        "startFrame": 151.8,
-        "weight": "semibold",
-        "lineBreakAfter": true
-    },
-    {
-        "text": "follow",
-        "startFrame": 158.4,
-        "weight": "semibold"
-    },
-    {
-        "text": "Krafto",
-        "startFrame": 171.4,
-        "weight": "heavy",
-        "highlightSweep": true,
-        "highlightSweepColor": "#000000",
-        "highlightSweepTextColor": "#FFFFFF"
-    },
-    {
-        "text": "for",
-        "startFrame": 184.5,
-        "weight": "semibold",
-        "lineBreakAfter": true
+        "size": 54,
+        "underline": true
     }
 ],
   },

@@ -371,27 +371,13 @@ export const KineticWordFlow: React.FC<{
   }
   const nonEmptyLines = lines.filter((l) => l && l.length > 0);
 
-  const weightMap: Record<NonNullable<KineticWord['weight']>, number> = {
+  const weightMap: Record<string, number> = {
     regular: 400,
     medium: 500,
+    semibold: 600,
     bold: 700,
     heavy: 800,
   };
-
-  // Smooth vertical centering compensation as lines 2, 3... unlock
-  let verticalPull = 0;
-  for (let li = 1; li < nonEmptyLines.length; li++) {
-    const firstStart = Math.min(...nonEmptyLines[li].map((w) => w.startFrame));
-    const lineOpen = interpolate(frame, [firstStart - 1, firstStart + 5], [0, 1], {
-      extrapolateLeft: 'clamp',
-      extrapolateRight: 'clamp',
-      easing: Easing.out(Easing.cubic),
-    });
-    const avgSz =
-      nonEmptyLines[li].reduce((acc, w) => acc + (w.size ?? baseSize), 0) /
-      nonEmptyLines[li].length;
-    verticalPull += lineOpen * (avgSz * 0.42);
-  }
 
   return (
     <div
@@ -403,22 +389,14 @@ export const KineticWordFlow: React.FC<{
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        gap: 8,
-        transform: `translate3d(0, ${(-verticalPull).toFixed(2)}px, 0)`,
+        gap: 12,
       }}
     >
       {nonEmptyLines.map((line, li) => {
-        // Auto-scale protection: calculate total line width to guarantee zero screen overflow
-        const totalLineWidth = line.reduce((acc, w, wi) => {
-          const sz = w.size ?? baseSize;
-          const fw = weightMap[w.weight ?? 'medium'];
-          const letterEm = sz >= 64 ? -0.042 : -0.030;
-          const rawWidth = measureWordPx(w.text, fw, Boolean(w.italic), sz, letterEm);
-          const pillExtra = w.highlightPill || w.highlightSweep ? 32 : 0;
-          const gapRight = wi < line.length - 1 ? sz * 0.30 : 0;
-          return acc + rawWidth + pillExtra + gapRight;
-        }, 0);
-        const lineScale = totalLineWidth > maxWidth ? Math.max(0.72, (maxWidth - 12) / totalLineWidth) : 1.0;
+        // Robust line scale protection to guarantee zero screen overflow
+        const totalEstimatedChars = line.reduce((acc, w) => acc + w.text.length, 0);
+        const approxLineWidth = totalEstimatedChars * (baseSize * 0.52) + line.length * 20;
+        const lineScale = approxLineWidth > maxWidth ? Math.max(0.76, (maxWidth - 16) / approxLineWidth) : 1.0;
 
         return (
           <div
@@ -428,97 +406,94 @@ export const KineticWordFlow: React.FC<{
               flexWrap: 'nowrap',
               justifyContent: 'center',
               alignItems: 'baseline',
-              transform: lineScale < 1 ? `scale(${lineScale})` : undefined,
+              transform: lineScale < 1 ? `scale(${lineScale.toFixed(3)})` : undefined,
               transformOrigin: 'center center',
             }}
           >
             {line.map((w, wi) => {
-            const local = frame - w.startFrame;
-            if (local < -2) return null;
+              const local = frame - w.startFrame;
+              const hasArrived = local >= -0.5;
 
-            const sz = w.size ?? baseSize;
-            const fw = weightMap[w.weight ?? 'medium'];
-            const letterEm = sz >= 64 ? -0.042 : -0.030;
-            const rawWidth = measureWordPx(w.text, fw, Boolean(w.italic), sz, letterEm);
-            const pillExtra = w.highlightPill || w.highlightSweep ? 28 : 0;
-            const gapRight = wi < line.length - 1 ? sz * 0.30 : 0;
+              const sz = w.size ?? baseSize;
+              const fw = weightMap[w.weight ?? 'medium'] ?? 500;
+              const letterEm = sz >= 64 ? -0.042 : -0.030;
+              const isPill = Boolean(w.highlightPill || w.highlightSweep);
+              const marginR = wi < line.length - 1 ? (isPill ? 14 : Math.round(sz * 0.26)) : 0;
 
-            // Smooth 5-frame slot expansion leads opacity by 1.5f; flex-start prevents left-edge overlap
-            const slotEase = interpolate(local, [-2, 3], [0, 1], {
-              extrapolateLeft: 'clamp',
-              extrapolateRight: 'clamp',
-              easing: Easing.out(Easing.cubic),
-            });
+              const enterEase = hasArrived
+                ? interpolate(local, [0, 5], [0, 1], {
+                    extrapolateLeft: 'clamp',
+                    extrapolateRight: 'clamp',
+                    easing: Easing.out(Easing.cubic),
+                  })
+                : 0;
+              const enterPrev = hasArrived
+                ? interpolate(local - 1, [0, 5], [0, 1], {
+                    extrapolateLeft: 'clamp',
+                    extrapolateRight: 'clamp',
+                    easing: Easing.out(Easing.cubic),
+                  })
+                : 0;
 
-            const enterEase = interpolate(local, [0, 5], [0, 1], {
-              extrapolateLeft: 'clamp',
-              extrapolateRight: 'clamp',
-              easing: Easing.out(Easing.cubic),
-            });
-            const enterPrev = interpolate(local - 1, [0, 5], [0, 1], {
-              extrapolateLeft: 'clamp',
-              extrapolateRight: 'clamp',
-              easing: Easing.out(Easing.cubic),
-            });
+              const dy = hasArrived ? interpolate(enterEase, [0, 1], [14, 0]) : 14;
+              const dyPrev = hasArrived ? interpolate(enterPrev, [0, 1], [14, 0]) : 14;
+              const blurY = hasArrived && local >= 0 && local <= 3 ? Math.min(3.0, Math.abs(dy - dyPrev) * 0.45) : 0;
 
-            const dy = interpolate(enterEase, [0, 1], [15, 0]);
-            const dyPrev = interpolate(enterPrev, [0, 1], [15, 0]);
-            const blurY = local >= 0 && local <= 3.5 ? Math.min(3.5, Math.abs(dy - dyPrev) * 0.45) : 0;
+              const opacity = hasArrived
+                ? interpolate(local, [0, 2.5], [0, 1], {
+                    extrapolateLeft: 'clamp',
+                    extrapolateRight: 'clamp',
+                  })
+                : 0;
+              const sc = hasArrived ? interpolate(enterEase, [0, 1], [0.94, 1]) : 0.94;
 
-            const opacity = interpolate(local, [-0.5, 2.8], [0, 1], {
-              extrapolateLeft: 'clamp',
-              extrapolateRight: 'clamp',
-            });
-            const sc = interpolate(enterEase, [0, 1], [0.94, 1]);
+              // Ink dries cleanly from crisp cool-slate (#A2A2AA) to rich ink (#141416)
+              const dryRatio = hasArrived
+                ? interpolate(local, [1, 7], [0, 1], {
+                    extrapolateLeft: 'clamp',
+                    extrapolateRight: 'clamp',
+                    easing: Easing.out(Easing.quad),
+                  })
+                : 0;
+              const targetRgb = w.highlightPill
+                ? [255, 255, 255]
+                : w.muted
+                  ? [102, 102, 110]
+                  : [20, 20, 24];
+              const startRgb = w.highlightPill ? [230, 230, 236] : [162, 162, 170];
+              const r = Math.round(interpolate(dryRatio, [0, 1], [startRgb[0], targetRgb[0]]));
+              const g = Math.round(interpolate(dryRatio, [0, 1], [startRgb[1], targetRgb[1]]));
+              const b = Math.round(interpolate(dryRatio, [0, 1], [startRgb[2], targetRgb[2]]));
 
-            // Ink dries cleanly from crisp cool-slate (#A2A2AA) to rich ink (#141416)
-            const dryRatio = interpolate(local, [1, 7], [0, 1], {
-              extrapolateLeft: 'clamp',
-              extrapolateRight: 'clamp',
-              easing: Easing.out(Easing.quad),
-            });
-            const targetRgb = w.highlightPill
-              ? [255, 255, 255]
-              : w.muted
-                ? [102, 102, 110]
-                : [20, 20, 24];
-            const startRgb = w.highlightPill ? [230, 230, 236] : [162, 162, 170];
-            const r = Math.round(interpolate(dryRatio, [0, 1], [startRgb[0], targetRgb[0]]));
-            const g = Math.round(interpolate(dryRatio, [0, 1], [startRgb[1], targetRgb[1]]));
-            const b = Math.round(interpolate(dryRatio, [0, 1], [startRgb[2], targetRgb[2]]));
+              const drawUnderline = hasArrived && w.underline
+                ? interpolate(local, [3, 10], [0, 1], {
+                    extrapolateLeft: 'clamp',
+                    extrapolateRight: 'clamp',
+                    easing: Easing.out(Easing.quad),
+                  })
+                : 0;
 
-            const drawUnderline = w.underline
-              ? interpolate(local, [3, 10], [0, 1], {
-                  extrapolateLeft: 'clamp',
-                  extrapolateRight: 'clamp',
-                  easing: Easing.out(Easing.quad),
-                })
-              : 0;
+              const sweepProgress = hasArrived && w.highlightSweep
+                ? interpolate(local, [0, 8], [0, 1], {
+                    extrapolateLeft: 'clamp',
+                    extrapolateRight: 'clamp',
+                    easing: Easing.out(Easing.cubic),
+                  })
+                : 0;
 
-            const sweepProgress = w.highlightSweep
-              ? interpolate(local, [0, 8], [0, 1], {
-                  extrapolateLeft: 'clamp',
-                  extrapolateRight: 'clamp',
-                  easing: Easing.out(Easing.cubic),
-                })
-              : 0;
-
-            const outerWidth = (rawWidth + pillExtra + 2) * slotEase;
-            const marginR = gapRight * slotEase;
-
-            return (
-              <span
-                key={wi}
-                style={{
-                  display: 'inline-flex',
-                  justifyContent: 'flex-start',
-                  alignItems: 'baseline',
-                  width: outerWidth,
-                  marginRight: marginR,
-                  overflow: 'visible',
-                  whiteSpace: 'nowrap',
-                }}
-              >
+              return (
+                <span
+                  key={wi}
+                  style={{
+                    display: 'inline-flex',
+                    justifyContent: 'flex-start',
+                    alignItems: 'baseline',
+                    marginRight: marginR,
+                    whiteSpace: 'nowrap',
+                    opacity: hasArrived ? 1 : 0,
+                    pointerEvents: 'none',
+                  }}
+                >
                 <span
                   style={{
                     position: 'relative',

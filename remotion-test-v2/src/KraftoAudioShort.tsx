@@ -1311,7 +1311,7 @@ export const KraftoAudioShort: React.FC<KraftoAudioShortProps> = (rawProps) => {
       gridType="arch-dots"
       watermark={props.branding.watermark} // Clean: empty string hides watermark
     >
-      {/* 1. Master Audio Stems: Pristine Untouched ElevenLabs Voiceover + Music Bed */}
+      {/* 1. Master Audio Stems: Pristine Untouched ElevenLabs Voiceover + Music Bed + SFX Stem */}
       <Audio
         src={staticFile('audio/krafto_audio_voiceover.wav')}
         volume={1.0}
@@ -1319,6 +1319,10 @@ export const KraftoAudioShort: React.FC<KraftoAudioShortProps> = (rawProps) => {
       <Audio
         src={staticFile('audio/channel_music_bed.wav')}
         volume={bgmVolume(frame)}
+      />
+      <Audio
+        src={staticFile('audio/krafto_audio_sfx_stem.wav')}
+        volume={0.92}
       />
 
       {/* 2. Visual Narrative Scenes */}

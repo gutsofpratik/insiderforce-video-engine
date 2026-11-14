@@ -350,19 +350,26 @@ export interface KineticWord {
  *    frames 0..2 of upward impulse (`stdDeviation="0, 2.2 -> 0"`), zero blurry active words.
  */
 export const KineticWordFlow: React.FC<{
-  words: KineticWord[];
+  words: KineticWord[] | KineticWord[][];
   top?: number;
   baseSize?: number;
   maxWidth?: number;
 }> = ({ words, top = 1075, baseSize = 54, maxWidth = 880 }) => {
   const frame = useCurrentFrame();
 
-  const lines: KineticWord[][] = [[]];
-  words.forEach((w) => {
-    lines[lines.length - 1].push(w);
-    if (w.lineBreakAfter) lines.push([]);
-  });
-  const nonEmptyLines = lines.filter((l) => l.length > 0);
+  const lines: KineticWord[][] = [];
+  if (Array.isArray(words) && words.length > 0 && Array.isArray(words[0])) {
+    (words as KineticWord[][]).forEach((line) => {
+      lines.push([...line]);
+    });
+  } else if (Array.isArray(words)) {
+    lines.push([]);
+    (words as KineticWord[]).forEach((w) => {
+      lines[lines.length - 1].push(w);
+      if (w && w.lineBreakAfter) lines.push([]);
+    });
+  }
+  const nonEmptyLines = lines.filter((l) => l && l.length > 0);
 
   const weightMap: Record<NonNullable<KineticWord['weight']>, number> = {
     regular: 400,

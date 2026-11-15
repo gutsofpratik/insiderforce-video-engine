@@ -329,7 +329,7 @@ export const BeveledMediaFrame: React.FC<{
 export interface KineticWord {
   text: string;
   startFrame: number;
-  weight?: 'regular' | 'medium' | 'bold' | 'heavy';
+  weight?: 'regular' | 'medium' | 'semibold' | 'bold' | 'heavy';
   italic?: boolean;
   muted?: boolean;
   size?: number;
@@ -340,6 +340,8 @@ export interface KineticWord {
   highlightSweepTextColor?: string;
   lineBreakAfter?: boolean;
 }
+
+export type KineticWordProps = KineticWord;
 
 /**
  * Authentic InsiderForce smooth optical-reflow kinetic typography (matched frame-by-frame to 001 & 046):

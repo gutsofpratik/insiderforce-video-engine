@@ -3,6 +3,8 @@ node_modules/
 .venv/
 env/
 venv/
+.remotion/
+**/.remotion/
 
 # Rendered Video Outputs (keep source code & public assets, ignore heavy MP4 renders)
 out/

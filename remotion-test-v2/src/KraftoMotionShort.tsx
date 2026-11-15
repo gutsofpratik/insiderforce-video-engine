@@ -1607,6 +1607,20 @@ const OutroCtaScene: React.FC<{
  * Root Krafto Motion Short Composition (2034 frames @ 30fps)
  */
 export const KraftoMotionShort: React.FC<KraftoMotionShortProps> = (props) => {
+  const frame = useCurrentFrame();
+
+  // Signature Channel Background Music Volume Curve (matching KraftoAudioShort & Top3ClaudeSkillsShort)
+  // Steady at 0.15, swells to 0.22 at scene transitions, smooth fade-out at outro
+  const bgmVolume = (f: number) => {
+    if (f < 10) return interpolate(f, [0, 10], [0, 0.15]);
+    if (f >= 1980) return interpolate(f, [1980, 2034], [0.15, 0], { extrapolateRight: 'clamp' });
+    const cuts = [240, 535, 904, 1234, 1529, 1828];
+    for (const cut of cuts) {
+      if (Math.abs(f - cut) <= 8) return 0.22;
+    }
+    return 0.15;
+  };
+
   return (
     <StudioCanvas watermark={props.branding.watermark}>
       {/* 1. Full Audio Hierarchy */}
@@ -1622,14 +1636,10 @@ export const KraftoMotionShort: React.FC<KraftoMotionShortProps> = (props) => {
         volume={0.95}
       />
 
-      {/* 1c. Restrained Ambient Music Bed */}
+      {/* 1c. Signature Channel Background Music Bed */}
       <Audio
-        src={staticFile('audio/music_bed_modern.wav')}
-        volume={(f) => {
-          const fadeIn = interpolate(f, [0, 30], [0, 0.08], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
-          const fadeOut = interpolate(f, [1980, 2034], [0.08, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
-          return Math.min(fadeIn, fadeOut);
-        }}
+        src={staticFile('audio/channel_music_bed.wav')}
+        volume={bgmVolume(frame)}
       />
 
       {/* 2. Visual Narrative Scenes */}
